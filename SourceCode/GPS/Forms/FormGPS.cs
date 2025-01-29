@@ -4,6 +4,7 @@ using AgLibrary.Logging;
 using AgOpenGPS;
 using AgOpenGPS.Culture;
 using AgOpenGPS.Properties;
+using AGOpenGPS.GPS;
 using Microsoft.Win32;
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
@@ -22,12 +23,15 @@ using System.Resources;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 
 namespace AgOpenGPS
 {
     //the main form object
     public partial class FormGPS : Form
     {
+        public MqttClientService mqttService;
+
         //To bring forward AgIO if running
         [System.Runtime.InteropServices.DllImport("User32.dll")]
         private static extern bool SetForegroundWindow(IntPtr handle);
@@ -263,15 +267,28 @@ namespace AgOpenGPS
                 }
             }
         }
+        private async Task InitializeMqttAsync()
+        {
+            try
+            {
+                await mqttService.AutoConnectAsync();
+                Log.EventWriter("MQTT inicializado correctamente");
 
+               
+            }
+            catch (Exception ex)
+            {
+                Log.EventWriter($"Error MQTT: {ex.Message}");
+            }
+        }
         public FormGPS()
         {
             //winform initialization
             InitializeComponent();
-
+            mqttService = new MqttClientService();
             //time keeper
             secondsSinceStart = (DateTime.Now - Process.GetCurrentProcess().StartTime).TotalSeconds;
-
+            _ = InitializeMqttAsync();
             camera = new CCamera();
 
             //create the world grid
@@ -382,7 +399,7 @@ namespace AgOpenGPS
 
             //start udp server is required
             StartLoopbackServer();
-
+        
             //boundaryToolStripBtn.Enabled = false;
             FieldMenuButtonEnableDisable(false);
 

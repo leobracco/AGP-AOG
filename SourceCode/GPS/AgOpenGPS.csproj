@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Control.Draggable" Version="1.0.5049.269" />
+    <PackageReference Include="MQTTnet" Version="4.3.7.1207" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="OpenTK.GLControl" Version="3.3.3" />
     <PackageReference Include="Resource.Embedder" Version="2.2.0" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
