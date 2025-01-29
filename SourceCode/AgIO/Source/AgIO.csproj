@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <OutputPath>..\..\..\AgOpenGPS\</OutputPath>
+    <ApplicationIcon>AgIO_ico.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RepeatButtonControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\References\RepeatButtonControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AgLibrary\AgLibrary.csproj" />
+    <ProjectReference Include="..\..\Keypad\Keypad.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forms\Controls.Designer.cs">
+      <DependentUpon>FormLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\NMEA.Designer.cs">
+      <DependentUpon>FormLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\NTRIPComm.Designer.cs">
+      <DependentUpon>FormLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\SerialComm.Designer.cs">
+      <DependentUpon>FormLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\UDP.Designer.cs">
+      <DependentUpon>FormLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
