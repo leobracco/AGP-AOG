@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Estilo AOG (oscuro con verdes) */
+      body {
+        background-color: #2d2d30;
+        color: #c8c8c8;
+        font-family: "Segoe UI", sans-serif;
+        padding: 20px;
+      }
+
+      .aog-form {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 500px;
+        margin: auto;
+      }
+
+      .aog-input {
+        background: #333337;
+        border: 1px solid #3e3e42;
+        color: #c8c8c8;
+        padding: 8px;
+        margin: 5px 0;
+        width: 100%;
+      }
+
+      .aog-btn {
+        background: #007acc;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aog-form">
+      <h2>🛠 Configuración de Sembradora</h2>
+      <form id="configForm">
+        <input type="text" class="aog-input" id="modelo" placeholder="Modelo" />
+        <input
+          type="number"
+          class="aog-input"
+          id="lineas"
+          placeholder="Número de Líneas"
+        />
+        <input
+          type="number"
+          class="aog-input"
+          id="espaciamiento"
+          placeholder="Espaciamiento (cm)"
+        />
+        <button onclick="mostrarAlerta()">Mostrar Alerta</button>
+        <button type="button" class="aog-btn" onclick="guardarConfig()">
+          💾 Guardar Configuración
+        </button>
+      </form>
+    </div>
+    <script>
+      function mostrarAlerta() {
+        alert("Graba");
+      }
+      function guardarConfig() {
+        const config = {
+          Modelo: document.getElementById("modelo").value,
+          Lineas: parseInt(document.getElementById("lineas").value),
+          EspaciamientoCm: parseFloat(
+            document.getElementById("espaciamiento").value
+          ),
+        };
+
+        window.chrome.webview.postMessage(config);
+      }
+    </script>
+  </body>
+</html>

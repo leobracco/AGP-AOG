@@ -24,6 +24,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using System.Threading.Tasks;
+using AgOpenGPS.Forms.Seeders;
 
 namespace AgOpenGPS
 {
@@ -373,7 +374,7 @@ namespace AgOpenGPS
             Log.EventWriter("Program Started: "
                 + DateTime.Now.ToString("f", CultureInfo.InvariantCulture));
             Log.EventWriter("AOG Version: " + Application.ProductVersion.ToString(CultureInfo.InvariantCulture));
-
+            
             if (!Properties.Settings.Default.setDisplay_isTermsAccepted)
             {
                 using (var form = new Form_First(this))
@@ -508,6 +509,16 @@ namespace AgOpenGPS
                     form.ShowDialog(this);
                 }
             }
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnAbrirConfig_Click(object sender, EventArgs e)
+        {
+           
         }
 
         private void FormGPS_FormClosing(object sender, FormClosingEventArgs e)
