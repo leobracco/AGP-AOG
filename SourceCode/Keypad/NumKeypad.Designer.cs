@@ -48,13 +48,13 @@
             // 
             // btn1
             // 
-            this.btn1.BackColor = System.Drawing.SystemColors.Control;
+            this.btn1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn1.FlatAppearance.BorderSize = 2;
             this.btn1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn1.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn1.Location = new System.Drawing.Point(3, 3);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(93, 92);
@@ -65,13 +65,13 @@
             // 
             // btn0
             // 
-            this.btn0.BackColor = System.Drawing.SystemColors.Control;
+            this.btn0.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn0.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn0.FlatAppearance.BorderSize = 2;
             this.btn0.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn0.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn0.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn0.Location = new System.Drawing.Point(122, 335);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(93, 92);
@@ -82,13 +82,13 @@
             // 
             // btnPlusMinus
             // 
-            this.btnPlusMinus.BackColor = System.Drawing.SystemColors.Control;
+            this.btnPlusMinus.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btnPlusMinus.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnPlusMinus.FlatAppearance.BorderSize = 2;
             this.btnPlusMinus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnPlusMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlusMinus.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlusMinus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPlusMinus.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPlusMinus.Location = new System.Drawing.Point(3, 334);
             this.btnPlusMinus.Name = "btnPlusMinus";
             this.btnPlusMinus.Size = new System.Drawing.Size(93, 92);
@@ -99,13 +99,13 @@
             // 
             // btn9
             // 
-            this.btn9.BackColor = System.Drawing.SystemColors.Control;
+            this.btn9.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn9.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn9.FlatAppearance.BorderSize = 2;
             this.btn9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn9.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn9.Location = new System.Drawing.Point(241, 224);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(93, 92);
@@ -116,13 +116,13 @@
             // 
             // btn8
             // 
-            this.btn8.BackColor = System.Drawing.SystemColors.Control;
+            this.btn8.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn8.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn8.FlatAppearance.BorderSize = 2;
             this.btn8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn8.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn8.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn8.Location = new System.Drawing.Point(122, 223);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(93, 92);
@@ -133,13 +133,13 @@
             // 
             // btn7
             // 
-            this.btn7.BackColor = System.Drawing.SystemColors.Control;
+            this.btn7.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn7.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn7.FlatAppearance.BorderSize = 2;
             this.btn7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn7.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn7.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn7.Location = new System.Drawing.Point(3, 223);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(93, 92);
@@ -150,13 +150,13 @@
             // 
             // btn6
             // 
-            this.btn6.BackColor = System.Drawing.SystemColors.Control;
+            this.btn6.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn6.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn6.FlatAppearance.BorderSize = 2;
             this.btn6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn6.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn6.Location = new System.Drawing.Point(241, 112);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(93, 92);
@@ -167,13 +167,13 @@
             // 
             // btn5
             // 
-            this.btn5.BackColor = System.Drawing.SystemColors.Control;
+            this.btn5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn5.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn5.FlatAppearance.BorderSize = 2;
             this.btn5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn5.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn5.Location = new System.Drawing.Point(122, 112);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(93, 92);
@@ -184,13 +184,13 @@
             // 
             // btn4
             // 
-            this.btn4.BackColor = System.Drawing.SystemColors.Control;
+            this.btn4.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn4.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn4.FlatAppearance.BorderSize = 2;
             this.btn4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn4.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn4.Location = new System.Drawing.Point(3, 113);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(93, 92);
@@ -201,13 +201,13 @@
             // 
             // btn3
             // 
-            this.btn3.BackColor = System.Drawing.SystemColors.Control;
+            this.btn3.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn3.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn3.FlatAppearance.BorderSize = 2;
             this.btn3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn3.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn3.Location = new System.Drawing.Point(241, 3);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(93, 92);
@@ -218,13 +218,13 @@
             // 
             // btn2
             // 
-            this.btn2.BackColor = System.Drawing.SystemColors.Control;
+            this.btn2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn2.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btn2.FlatAppearance.BorderSize = 2;
             this.btn2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btn2.Location = new System.Drawing.Point(122, 3);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(93, 92);
@@ -241,7 +241,7 @@
             this.btnClear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnClear.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnClear.Location = new System.Drawing.Point(360, 3);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(93, 92);
@@ -252,13 +252,13 @@
             // 
             // btnDecimal
             // 
-            this.btnDecimal.BackColor = System.Drawing.SystemColors.Control;
+            this.btnDecimal.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btnDecimal.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnDecimal.FlatAppearance.BorderSize = 2;
             this.btnDecimal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDecimal.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDecimal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnDecimal.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnDecimal.Location = new System.Drawing.Point(241, 335);
             this.btnDecimal.Name = "btnDecimal";
             this.btnDecimal.Size = new System.Drawing.Size(93, 92);
@@ -269,13 +269,13 @@
             // 
             // btnOK
             // 
-            this.btnOK.BackColor = System.Drawing.SystemColors.Control;
+            this.btnOK.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btnOK.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnOK.FlatAppearance.BorderSize = 2;
             this.btnOK.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnOK.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOK.Image = global::Keypad.Properties.Resources.OK64;
             this.btnOK.Location = new System.Drawing.Point(360, 335);
             this.btnOK.Name = "btnOK";
@@ -286,13 +286,13 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.SystemColors.Control;
+            this.btnCancel.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnCancel.FlatAppearance.BorderSize = 2;
             this.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCancel.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnCancel.Image = global::Keypad.Properties.Resources.Cancel64;
             this.btnCancel.Location = new System.Drawing.Point(360, 224);
             this.btnCancel.Name = "btnCancel";
@@ -309,7 +309,7 @@
             this.btnBackSpace.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnBackSpace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBackSpace.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBackSpace.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBackSpace.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnBackSpace.Location = new System.Drawing.Point(360, 112);
             this.btnBackSpace.Name = "btnBackSpace";
             this.btnBackSpace.Size = new System.Drawing.Size(93, 92);
@@ -322,7 +322,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaption);
             this.Controls.Add(this.btnBackSpace);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnClear);

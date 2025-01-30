@@ -86,7 +86,7 @@ namespace AgOpenGPS
                     //ForeColor = System.Drawing.SystemColors.ButtonFace
                 };
                 a.Click += B_Click;
-                a.BackColor = System.Drawing.SystemColors.ButtonFace;
+                a.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
 
                 //area
                 Button b = new Button
@@ -98,7 +98,8 @@ namespace AgOpenGPS
                     //ForeColor = System.Drawing.SystemColors.ButtonFace
                 };
                 b.Click += B_Click;
-                b.BackColor = System.Drawing.SystemColors.ButtonFace;
+                b.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
+                
 
                 //drive thru
                 Button d = new Button
@@ -111,7 +112,7 @@ namespace AgOpenGPS
                     //Font = backupfont
                 };
                 d.Click += DriveThru_Click;
-                d.BackColor = System.Drawing.SystemColors.ButtonFace;
+                d.BackColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
                 d.Visible = true;
 
                 flp1.Controls.Add(a);
@@ -164,8 +165,8 @@ namespace AgOpenGPS
                 }
                 else
                 {
-                    a.ForeColor = System.Drawing.SystemColors.ControlText;
-                    b.ForeColor = System.Drawing.SystemColors.ControlText;
+                    a.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
+                    b.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
                 }
             }
         }

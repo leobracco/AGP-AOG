@@ -105,10 +105,10 @@ namespace AgOpenGPS
 
         private void ClearNoSubBackgrounds()
         {
-            btnTram.BackColor = SystemColors.GradientInactiveCaption;
-            btnUTurn.BackColor = SystemColors.GradientInactiveCaption;
-            btnDisplay.BackColor = SystemColors.GradientInactiveCaption;
-            btnFeatureHides.BackColor = SystemColors.GradientInactiveCaption;
+            btnTram.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnUTurn.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnDisplay.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnFeatureHides.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
         }
         private void btnTram_Click(object sender, EventArgs e)
         {
@@ -121,7 +121,7 @@ namespace AgOpenGPS
             else
             {
                 tab1.SelectedTab = tabTram;
-                btnTram.BackColor = SystemColors.GradientActiveCaption;
+                btnTram.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);
             }
         }
 
@@ -136,7 +136,7 @@ namespace AgOpenGPS
             else
             {
                 tab1.SelectedTab = tabUTurn;
-                btnUTurn.BackColor = SystemColors.GradientActiveCaption;
+                btnUTurn.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             }
         }
 
@@ -151,7 +151,7 @@ namespace AgOpenGPS
             else
             {
                 tab1.SelectedTab = tabBtns;
-                btnFeatureHides.BackColor = SystemColors.GradientActiveCaption;
+                btnFeatureHides.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             }
         }
 
@@ -166,7 +166,7 @@ namespace AgOpenGPS
             else
             {
                 tab1.SelectedTab = tabDisplay;
-                btnDisplay.BackColor = SystemColors.GradientActiveCaption;
+                btnDisplay.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             }
         }
 
@@ -176,44 +176,44 @@ namespace AgOpenGPS
         private void btnVehicle_Click(object sender, EventArgs e)
         {
             ShowSubMenu(panelVehicleSubMenu, btnVehicle);
-            btnSubVehicleType.BackColor = SystemColors.GradientActiveCaption;
+            btnSubVehicleType.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             UpdateSummary();
             UpdateVehicleListView();
         }
 
         private void ClearVehicleSubBackgrounds()
         {
-            btnSubVehicleType.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubAntenna.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubDimensions.BackColor = SystemColors.GradientInactiveCaption;
-            //btnSubGuidance.BackColor = SystemColors.GradientInactiveCaption;
+            btnSubVehicleType.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubAntenna.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubDimensions.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            //btnSubGuidance.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
         }
         private void btnSubVehicleType_Click(object sender, EventArgs e)
         {
             ClearVehicleSubBackgrounds();
             tab1.SelectedTab = tabVConfig;
-            btnSubVehicleType.BackColor = SystemColors.GradientActiveCaption;
+            btnSubVehicleType.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubDimensions_Click(object sender, EventArgs e)
         {
             ClearVehicleSubBackgrounds();
             tab1.SelectedTab = tabVDimensions;
-            btnSubDimensions.BackColor = SystemColors.GradientActiveCaption;
+            btnSubDimensions.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubAntenna_Click(object sender, EventArgs e)
         {
             ClearVehicleSubBackgrounds();
             tab1.SelectedTab = tabVAntenna;
-            btnSubAntenna.BackColor = SystemColors.GradientActiveCaption;
+            btnSubAntenna.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubGuidance_Click(object sender, EventArgs e)
         {
             ClearVehicleSubBackgrounds();
             tab1.SelectedTab = tabVGuidance;
-            //btnSubGuidance.BackColor = SystemColors.GradientActiveCaption;               
+            //btnSubGuidance.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;               
         }
 
         #endregion Region
@@ -222,33 +222,33 @@ namespace AgOpenGPS
         private void btnTool_Click(object sender, EventArgs e)
         {
             ShowSubMenu(panelToolSubMenu, btnTool);
-            btnSubToolType.BackColor=SystemColors.GradientActiveCaption;
+            btnSubToolType.BackColor=System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             UpdateVehicleListView();
         }
 
         private void ClearToolSubBackgrounds()
         {
-            btnSubToolType.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubHitch.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubSections.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubSwitches.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubToolSettings.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubToolOffset.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubPivot.BackColor = SystemColors.GradientInactiveCaption;
+            btnSubToolType.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubHitch.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubSections.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubSwitches.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubToolSettings.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubToolOffset.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubPivot.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
         }
 
         private void btnSubToolType_Click(object sender, EventArgs e)
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabTConfig;
-            btnSubToolType.BackColor = SystemColors.GradientActiveCaption;
+            btnSubToolType.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubHitch_Click(object sender, EventArgs e)
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabTHitch;
-            btnSubHitch.BackColor= SystemColors.GradientActiveCaption;
+            btnSubHitch.BackColor= System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubToolOffset_Click
@@ -256,35 +256,35 @@ namespace AgOpenGPS
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabToolOffset;
-            btnSubToolOffset.BackColor = SystemColors.GradientActiveCaption;
+            btnSubToolOffset.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubPivot_Click(object sender, EventArgs e)
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabToolPivot;
-            btnSubPivot.BackColor = SystemColors.GradientActiveCaption;
+            btnSubPivot.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubSections_Click(object sender, EventArgs e)
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabTSections;
-            btnSubSections.BackColor= SystemColors.GradientActiveCaption;
+            btnSubSections.BackColor= System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubSwitches_Click(object sender, EventArgs e)
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabTSwitches;
-            btnSubSwitches .BackColor = SystemColors.GradientActiveCaption;
+            btnSubSwitches .BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubToolSettings_Click(object sender, EventArgs e)
         {
             ClearToolSubBackgrounds();
             tab1.SelectedTab = tabTSettings;
-            btnSubToolSettings.BackColor = SystemColors.GradientActiveCaption;
+            btnSubToolSettings.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
         #endregion
 
@@ -292,13 +292,13 @@ namespace AgOpenGPS
 
         private void ClearDataSubBackgrounds()
         {
-            btnSubHeading.BackColor = SystemColors.GradientInactiveCaption;
-            btnSubRoll.BackColor = SystemColors.GradientInactiveCaption;
+            btnSubHeading.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnSubRoll.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
         }
         private void btnDataSources_Click(object sender, EventArgs e)
         {
             ShowSubMenu(panelDataSourcesSubMenu, btnDataSources);
-            btnSubHeading.BackColor=SystemColors.GradientActiveCaption;
+            btnSubHeading.BackColor=System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             UpdateVehicleListView();
         }
 
@@ -306,14 +306,14 @@ namespace AgOpenGPS
         {
             ClearDataSubBackgrounds();
             tab1.SelectedTab = tabDHeading;
-            btnSubHeading.BackColor=SystemColors.GradientActiveCaption;
+            btnSubHeading.BackColor=System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnSubRoll_Click(object sender, EventArgs e)
         {
             ClearDataSubBackgrounds();
             tab1.SelectedTab = tabDRoll;
-            btnSubRoll.BackColor=SystemColors.GradientActiveCaption;
+            btnSubRoll.BackColor=System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         #endregion
@@ -321,14 +321,14 @@ namespace AgOpenGPS
         #region Module
         private void ClearMachineSubBackgrounds()
         {
-            btnMachineModule.BackColor = SystemColors.GradientInactiveCaption;
-            btnMachineRelay.BackColor = SystemColors.GradientInactiveCaption;
+            btnMachineModule.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
+            btnMachineRelay.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientInactiveCaption);
         }
 
         private void btnArduino_Click(object sender, EventArgs e)
         {
             ShowSubMenu(panelArduinoSubMenu, btnArduino);
-            btnMachineModule.BackColor = SystemColors.GradientActiveCaption;
+            btnMachineModule.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
             UpdateVehicleListView();
         }
 
@@ -336,14 +336,14 @@ namespace AgOpenGPS
         {
             ClearMachineSubBackgrounds();
             tab1.SelectedTab = tabAMachine;
-            btnMachineModule.BackColor = SystemColors.GradientActiveCaption;
+            btnMachineModule.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
 
         private void btnMachineRelay_Click(object sender, EventArgs e)
         {
             ClearMachineSubBackgrounds();
             tab1.SelectedTab = tabRelay;
-            btnMachineRelay.BackColor= SystemColors.GradientActiveCaption;
+            btnMachineRelay.BackColor= System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);;
         }
         #endregion
     }

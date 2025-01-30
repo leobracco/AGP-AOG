@@ -40,7 +40,7 @@
             // 
             this.lvLines.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lvLines.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lvLines.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.InactiveCaption);
             this.lvLines.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chName});
             this.lvLines.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -94,7 +94,7 @@
             this.btnDeleteAB.FlatAppearance.BorderSize = 0;
             this.btnDeleteAB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteAB.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            this.btnDeleteAB.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnDeleteAB.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnDeleteAB.Image = global::AgOpenGPS.Properties.Resources.Cancel64;
             this.btnDeleteAB.Location = new System.Drawing.Point(30, 329);
             this.btnDeleteAB.Name = "btnDeleteAB";

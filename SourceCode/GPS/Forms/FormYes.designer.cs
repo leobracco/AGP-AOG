@@ -55,7 +55,7 @@
             this.btnSerialOK.FlatAppearance.BorderSize = 0;
             this.btnSerialOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSerialOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSerialOK.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSerialOK.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSerialOK.Image = global::AgOpenGPS.Properties.Resources.OK64;
             this.btnSerialOK.Location = new System.Drawing.Point(743, 363);
             this.btnSerialOK.Name = "btnSerialOK";

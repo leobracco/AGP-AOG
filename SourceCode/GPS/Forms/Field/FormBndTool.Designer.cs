@@ -192,7 +192,7 @@
             this.cboxIsZoom.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(160)))));
             this.cboxIsZoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsZoom.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsZoom.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxIsZoom.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxIsZoom.Image = global::AgOpenGPS.Properties.Resources.ZoomOGL;
             this.cboxIsZoom.Location = new System.Drawing.Point(39, 342);
             this.cboxIsZoom.Name = "cboxIsZoom";
@@ -309,7 +309,7 @@
             this.btnCancelTouch.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnCancelTouch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnCancelTouch, 3);
-            this.btnCancelTouch.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnCancelTouch.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnCancelTouch.FlatAppearance.BorderSize = 0;
             this.btnCancelTouch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelTouch.Font = new System.Drawing.Font("Tahoma", 14.25F);

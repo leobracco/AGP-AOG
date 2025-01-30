@@ -213,7 +213,7 @@
             this.cboxIsOuter.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(250)))), ((int)(((byte)(220)))));
             this.cboxIsOuter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsOuter.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsOuter.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxIsOuter.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxIsOuter.Image = global::AgOpenGPS.Properties.Resources.TramOuter;
             this.cboxIsOuter.Location = new System.Drawing.Point(205, 178);
             this.cboxIsOuter.Name = "cboxIsOuter";
@@ -229,7 +229,7 @@
             this.btnDeleteAllTrams.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDeleteAllTrams.BackColor = System.Drawing.Color.Transparent;
             this.btnDeleteAllTrams.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnDeleteAllTrams.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnDeleteAllTrams.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnDeleteAllTrams.FlatAppearance.BorderSize = 0;
             this.btnDeleteAllTrams.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteAllTrams.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -247,7 +247,7 @@
             this.btnCancelTouch.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelTouch.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelTouch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCancelTouch.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnCancelTouch.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnCancelTouch.FlatAppearance.BorderSize = 0;
             this.btnCancelTouch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelTouch.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -310,7 +310,7 @@
             this.btnSelectCurveBk.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSelectCurveBk.BackColor = System.Drawing.Color.Transparent;
             this.btnSelectCurveBk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSelectCurveBk.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSelectCurveBk.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSelectCurveBk.FlatAppearance.BorderSize = 0;
             this.btnSelectCurveBk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSelectCurveBk.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -328,7 +328,7 @@
             this.btnSelectCurve.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSelectCurve.BackColor = System.Drawing.Color.Transparent;
             this.btnSelectCurve.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSelectCurve.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSelectCurve.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSelectCurve.FlatAppearance.BorderSize = 0;
             this.btnSelectCurve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSelectCurve.Font = new System.Drawing.Font("Tahoma", 14.25F);

@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGPS));
             this.contextMenuStripOpenGL = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStripOpenGL.DropShadowEnabled = false;
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.googleEarthOpenGLContextMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -533,7 +534,7 @@
             // contextMenuStripFlag
             // 
             this.contextMenuStripFlag.AutoSize = false;
-            this.contextMenuStripFlag.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.contextMenuStripFlag.BackColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.contextMenuStripFlag.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemFlagRed,
             this.toolStripMenuFlagGrn,
@@ -547,7 +548,7 @@
             // toolStripMenuItemFlagRed
             // 
             this.toolStripMenuItemFlagRed.AutoSize = false;
-            this.toolStripMenuItemFlagRed.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.toolStripMenuItemFlagRed.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlLight);
             this.toolStripMenuItemFlagRed.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripMenuItemFlagRed.Image = global::AgOpenGPS.Properties.Resources.FlagYel;
             this.toolStripMenuItemFlagRed.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -559,7 +560,7 @@
             // toolStripMenuFlagGrn
             // 
             this.toolStripMenuFlagGrn.AutoSize = false;
-            this.toolStripMenuFlagGrn.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.toolStripMenuFlagGrn.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlLight);
             this.toolStripMenuFlagGrn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripMenuFlagGrn.Image = global::AgOpenGPS.Properties.Resources.FlagGrn;
             this.toolStripMenuFlagGrn.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -571,7 +572,7 @@
             // toolStripMenuFlagYel
             // 
             this.toolStripMenuFlagYel.AutoSize = false;
-            this.toolStripMenuFlagYel.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.toolStripMenuFlagYel.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlLight);
             this.toolStripMenuFlagYel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripMenuFlagYel.Image = global::AgOpenGPS.Properties.Resources.FlagRed;
             this.toolStripMenuFlagYel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -840,7 +841,7 @@
             this.btnSection8Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection8Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection8Man.Enabled = false;
-            this.btnSection8Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection8Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection8Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection8Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection8Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -857,7 +858,7 @@
             this.btnSection7Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection7Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection7Man.Enabled = false;
-            this.btnSection7Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection7Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection7Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection7Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection7Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -874,7 +875,7 @@
             this.btnSection6Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection6Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection6Man.Enabled = false;
-            this.btnSection6Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection6Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection6Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection6Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection6Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -891,7 +892,7 @@
             this.btnSection5Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection5Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection5Man.Enabled = false;
-            this.btnSection5Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection5Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection5Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection5Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection5Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -908,7 +909,7 @@
             this.btnSection4Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection4Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection4Man.Enabled = false;
-            this.btnSection4Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection4Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection4Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection4Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection4Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -925,7 +926,7 @@
             this.btnSection3Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection3Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection3Man.Enabled = false;
-            this.btnSection3Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection3Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection3Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection3Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection3Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -942,7 +943,7 @@
             this.btnSection2Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection2Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection2Man.Enabled = false;
-            this.btnSection2Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection2Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection2Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection2Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection2Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -959,7 +960,7 @@
             this.btnSection1Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection1Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection1Man.Enabled = false;
-            this.btnSection1Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection1Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection1Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection1Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection1Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -976,7 +977,7 @@
             this.btnSection9Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection9Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection9Man.Enabled = false;
-            this.btnSection9Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection9Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection9Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection9Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection9Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -993,7 +994,7 @@
             this.btnSection10Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection10Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection10Man.Enabled = false;
-            this.btnSection10Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection10Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection10Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection10Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection10Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1010,7 +1011,7 @@
             this.btnSection11Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection11Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection11Man.Enabled = false;
-            this.btnSection11Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection11Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection11Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection11Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection11Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1027,7 +1028,7 @@
             this.btnSection12Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection12Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection12Man.Enabled = false;
-            this.btnSection12Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection12Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection12Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection12Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection12Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1075,7 +1076,7 @@
             // 
             this.lblHz.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblHz.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHz.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblHz.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblHz.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblHz.Location = new System.Drawing.Point(92, 276);
             this.lblHz.Name = "lblHz";
@@ -1365,7 +1366,7 @@
             this.btnSection16Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection16Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection16Man.Enabled = false;
-            this.btnSection16Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection16Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection16Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection16Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection16Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1382,7 +1383,7 @@
             this.btnSection15Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection15Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection15Man.Enabled = false;
-            this.btnSection15Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection15Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection15Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection15Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection15Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1399,7 +1400,7 @@
             this.btnSection14Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection14Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection14Man.Enabled = false;
-            this.btnSection14Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection14Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection14Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection14Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection14Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1416,7 +1417,7 @@
             this.btnSection13Man.BackColor = System.Drawing.Color.Silver;
             this.btnSection13Man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSection13Man.Enabled = false;
-            this.btnSection13Man.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSection13Man.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSection13Man.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSection13Man.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSection13Man.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1679,7 +1680,7 @@
             this.btnZone1.BackColor = System.Drawing.Color.Silver;
             this.btnZone1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone1.Enabled = false;
-            this.btnZone1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone1.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1696,7 +1697,7 @@
             this.btnZone2.BackColor = System.Drawing.Color.Silver;
             this.btnZone2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone2.Enabled = false;
-            this.btnZone2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone2.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1713,7 +1714,7 @@
             this.btnZone3.BackColor = System.Drawing.Color.Silver;
             this.btnZone3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone3.Enabled = false;
-            this.btnZone3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone3.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1730,7 +1731,7 @@
             this.btnZone4.BackColor = System.Drawing.Color.Silver;
             this.btnZone4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone4.Enabled = false;
-            this.btnZone4.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone4.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1747,7 +1748,7 @@
             this.btnZone5.BackColor = System.Drawing.Color.Silver;
             this.btnZone5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone5.Enabled = false;
-            this.btnZone5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone5.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1764,7 +1765,7 @@
             this.btnZone6.BackColor = System.Drawing.Color.Silver;
             this.btnZone6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone6.Enabled = false;
-            this.btnZone6.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone6.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1781,7 +1782,7 @@
             this.btnZone7.BackColor = System.Drawing.Color.Silver;
             this.btnZone7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone7.Enabled = false;
-            this.btnZone7.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone7.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -1798,7 +1799,7 @@
             this.btnZone8.BackColor = System.Drawing.Color.Silver;
             this.btnZone8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnZone8.Enabled = false;
-            this.btnZone8.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZone8.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZone8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZone8.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZone8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -2329,7 +2330,7 @@
             this.cboxAutoSnapToPivot.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleGreen;
             this.cboxAutoSnapToPivot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxAutoSnapToPivot.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold);
-            this.cboxAutoSnapToPivot.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxAutoSnapToPivot.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxAutoSnapToPivot.Image = global::AgOpenGPS.Properties.Resources.AutoSteerSnapToPivot;
             this.cboxAutoSnapToPivot.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cboxAutoSnapToPivot.Location = new System.Drawing.Point(3, 86);
@@ -2414,7 +2415,7 @@
             // 
             this.btnSnapToPivot.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSnapToPivot.BackColor = System.Drawing.Color.Transparent;
-            this.btnSnapToPivot.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSnapToPivot.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSnapToPivot.FlatAppearance.BorderSize = 0;
             this.btnSnapToPivot.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnSnapToPivot.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2435,7 +2436,7 @@
             // 
             this.btnAdjRight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdjRight.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdjRight.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdjRight.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAdjRight.FlatAppearance.BorderSize = 0;
             this.btnAdjRight.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAdjRight.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2455,7 +2456,7 @@
             // 
             this.btnAdjLeft.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdjLeft.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdjLeft.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdjLeft.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAdjLeft.FlatAppearance.BorderSize = 0;
             this.btnAdjLeft.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAdjLeft.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2476,7 +2477,7 @@
             this.btnFlag.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnFlag.BackColor = System.Drawing.Color.Transparent;
             this.btnFlag.ContextMenuStrip = this.contextMenuStripFlag;
-            this.btnFlag.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnFlag.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnFlag.FlatAppearance.BorderSize = 0;
             this.btnFlag.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnFlag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2530,7 +2531,7 @@
             this.cboxIsSectionControlled.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cboxIsSectionControlled.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsSectionControlled.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsSectionControlled.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxIsSectionControlled.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxIsSectionControlled.Image = global::AgOpenGPS.Properties.Resources.HeadlandSectionOn;
             this.cboxIsSectionControlled.Location = new System.Drawing.Point(437, 3);
             this.cboxIsSectionControlled.Name = "cboxIsSectionControlled";
@@ -2568,7 +2569,7 @@
             // 
             this.btnTramDisplayMode.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnTramDisplayMode.BackColor = System.Drawing.Color.Transparent;
-            this.btnTramDisplayMode.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnTramDisplayMode.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnTramDisplayMode.FlatAppearance.BorderSize = 0;
             this.btnTramDisplayMode.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnTramDisplayMode.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2639,7 +2640,7 @@
             // 
             this.btnYouSkipEnable.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnYouSkipEnable.BackColor = System.Drawing.Color.Transparent;
-            this.btnYouSkipEnable.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnYouSkipEnable.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnYouSkipEnable.FlatAppearance.BorderSize = 0;
             this.btnYouSkipEnable.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnYouSkipEnable.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2681,7 +2682,7 @@
             // 
             this.btnAutoSteer.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAutoSteer.BackColor = System.Drawing.Color.Transparent;
-            this.btnAutoSteer.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAutoSteer.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnAutoSteer.FlatAppearance.BorderSize = 0;
             this.btnAutoSteer.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAutoSteer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2703,7 +2704,7 @@
             // 
             this.btnAutoYouTurn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAutoYouTurn.BackColor = System.Drawing.Color.Transparent;
-            this.btnAutoYouTurn.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAutoYouTurn.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnAutoYouTurn.FlatAppearance.BorderSize = 0;
             this.btnAutoYouTurn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAutoYouTurn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2725,7 +2726,7 @@
             this.btnSectionMasterAuto.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSectionMasterAuto.BackColor = System.Drawing.Color.Transparent;
             this.btnSectionMasterAuto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSectionMasterAuto.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSectionMasterAuto.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSectionMasterAuto.FlatAppearance.BorderSize = 0;
             this.btnSectionMasterAuto.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnSectionMasterAuto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2749,7 +2750,7 @@
             this.btnSectionMasterManual.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSectionMasterManual.BackColor = System.Drawing.Color.Transparent;
             this.btnSectionMasterManual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSectionMasterManual.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSectionMasterManual.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSectionMasterManual.FlatAppearance.BorderSize = 0;
             this.btnSectionMasterManual.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnSectionMasterManual.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -2838,7 +2839,7 @@
             this.btnContour.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnContour.BackColor = System.Drawing.Color.Transparent;
             this.btnContour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnContour.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnContour.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnContour.FlatAppearance.BorderSize = 0;
             this.btnContour.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnContour.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -3087,7 +3088,7 @@
             this.Controls.Add(this.oglBack);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;

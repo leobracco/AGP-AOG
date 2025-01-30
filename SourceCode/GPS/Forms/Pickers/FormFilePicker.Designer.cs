@@ -46,7 +46,7 @@
             // 
             this.lvLines.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lvLines.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lvLines.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.InactiveCaption);
             this.lvLines.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chName,
             this.chDistance,
@@ -121,7 +121,7 @@
             // 
             this.btnDeleteAB.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnDeleteAB.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            this.btnDeleteAB.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnDeleteAB.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnDeleteAB.Image = global::AgOpenGPS.Properties.Resources.Cancel64;
             this.btnDeleteAB.Location = new System.Drawing.Point(502, 507);
             this.btnDeleteAB.Name = "btnDeleteAB";
@@ -133,7 +133,7 @@
             // btnDeleteField
             // 
             this.btnDeleteField.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            this.btnDeleteField.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnDeleteField.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnDeleteField.Image = global::AgOpenGPS.Properties.Resources.Trash;
             this.btnDeleteField.Location = new System.Drawing.Point(46, 507);
             this.btnDeleteField.Name = "btnDeleteField";

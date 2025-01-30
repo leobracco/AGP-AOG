@@ -142,7 +142,7 @@
             // 
             this.lblDiff.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDiff.AutoSize = true;
-            this.lblDiff.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblDiff.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblDiff.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiff.ForeColor = System.Drawing.Color.Cyan;
             this.lblDiff.Location = new System.Drawing.Point(387, 100);
@@ -156,7 +156,7 @@
             // 
             this.lblPWM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPWM.AutoSize = true;
-            this.lblPWM.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblPWM.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblPWM.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPWM.ForeColor = System.Drawing.Color.Lime;
             this.lblPWM.Location = new System.Drawing.Point(276, 100);
@@ -170,7 +170,7 @@
             // 
             this.lblSteerAng.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSteerAng.AutoSize = true;
-            this.lblSteerAng.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblSteerAng.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblSteerAng.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSteerAng.ForeColor = System.Drawing.Color.OrangeRed;
             this.lblSteerAng.Location = new System.Drawing.Point(110, 100);
@@ -184,7 +184,7 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoEllipsis = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Chartreuse;
             this.label5.Location = new System.Drawing.Point(223, 104);
@@ -198,7 +198,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoEllipsis = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
             this.label1.Location = new System.Drawing.Point(38, 104);
@@ -214,9 +214,9 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoEllipsis = true;
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaptionText);
             this.label2.Location = new System.Drawing.Point(-2, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 23);
@@ -229,9 +229,9 @@
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoEllipsis = true;
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaptionText);
             this.label3.Location = new System.Drawing.Point(5, 425);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 23);
@@ -244,9 +244,9 @@
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoEllipsis = true;
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaptionText);
             this.label4.Location = new System.Drawing.Point(12, 273);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(20, 23);
@@ -258,7 +258,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.ClientSize = new System.Drawing.Size(495, 470);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

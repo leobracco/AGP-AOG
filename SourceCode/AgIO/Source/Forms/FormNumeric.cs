@@ -48,8 +48,8 @@ namespace AgIO
             if (tboxNumber.Text == "Error")
             {
                 tboxNumber.Text = "";
-                lblMin.ForeColor = SystemColors.ControlText;
-                lblMax.ForeColor = SystemColors.ControlText;
+                lblMin.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
+                lblMax.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             }
 
             //if its a number just add it

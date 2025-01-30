@@ -48,7 +48,7 @@
             // 
             this.btnSnapToPivot.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSnapToPivot.BackColor = System.Drawing.Color.Transparent;
-            this.btnSnapToPivot.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSnapToPivot.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSnapToPivot.FlatAppearance.BorderSize = 0;
             this.btnSnapToPivot.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnSnapToPivot.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -88,7 +88,7 @@
             // 
             this.btnAdjLeft.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdjLeft.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdjLeft.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdjLeft.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAdjLeft.FlatAppearance.BorderSize = 0;
             this.btnAdjLeft.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAdjLeft.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -108,7 +108,7 @@
             // 
             this.btnAdjRight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdjRight.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdjRight.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdjRight.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAdjRight.FlatAppearance.BorderSize = 0;
             this.btnAdjRight.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAdjRight.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -156,7 +156,7 @@
             // 
             this.btnHalfToolLeft.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHalfToolLeft.BackColor = System.Drawing.Color.Transparent;
-            this.btnHalfToolLeft.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnHalfToolLeft.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnHalfToolLeft.FlatAppearance.BorderSize = 0;
             this.btnHalfToolLeft.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnHalfToolLeft.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -176,7 +176,7 @@
             // 
             this.btnZeroMove.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnZeroMove.BackColor = System.Drawing.Color.Transparent;
-            this.btnZeroMove.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnZeroMove.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZeroMove.FlatAppearance.BorderSize = 0;
             this.btnZeroMove.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnZeroMove.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -196,7 +196,7 @@
             // 
             this.btnHalfToolRight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHalfToolRight.BackColor = System.Drawing.Color.Transparent;
-            this.btnHalfToolRight.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnHalfToolRight.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnHalfToolRight.FlatAppearance.BorderSize = 0;
             this.btnHalfToolRight.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnHalfToolRight.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

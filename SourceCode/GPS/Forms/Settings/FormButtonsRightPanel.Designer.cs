@@ -83,7 +83,7 @@
             // 
             this.autoSteer.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.autoSteer.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.autoSteer.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.autoSteer.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.autoSteer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.autoSteer.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.autoSteer.Image = global::AgOpenGPS.Properties.Resources.AutoSteerOff;
@@ -100,7 +100,7 @@
             // 
             this.youTurn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.youTurn.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.youTurn.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.youTurn.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.youTurn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.youTurn.Font = new System.Drawing.Font("Tahoma", 14.25F);
             this.youTurn.Image = global::AgOpenGPS.Properties.Resources.YouTurnNo;
@@ -117,7 +117,7 @@
             this.autoSection.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.autoSection.BackColor = System.Drawing.Color.WhiteSmoke;
             this.autoSection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.autoSection.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.autoSection.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.autoSection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.autoSection.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.autoSection.Image = global::AgOpenGPS.Properties.Resources.SectionMasterOff;
@@ -136,7 +136,7 @@
             this.manualSection.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.manualSection.BackColor = System.Drawing.Color.WhiteSmoke;
             this.manualSection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.manualSection.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.manualSection.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.manualSection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.manualSection.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manualSection.Image = global::AgOpenGPS.Properties.Resources.ManualOff;
@@ -207,7 +207,7 @@
             this.contour.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.contour.BackColor = System.Drawing.Color.WhiteSmoke;
             this.contour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.contour.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.contour.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.contour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.contour.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contour.Image = global::AgOpenGPS.Properties.Resources.ContourOn;
@@ -222,7 +222,7 @@
             // btnAutoSteer
             // 
             this.btnAutoSteer.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAutoSteer.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAutoSteer.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnAutoSteer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAutoSteer.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.btnAutoSteer.Image = global::AgOpenGPS.Properties.Resources.AutoSteerOff;
@@ -239,7 +239,7 @@
             // btnAutoYouTurn
             // 
             this.btnAutoYouTurn.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAutoYouTurn.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAutoYouTurn.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnAutoYouTurn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAutoYouTurn.Font = new System.Drawing.Font("Tahoma", 14.25F);
             this.btnAutoYouTurn.Image = global::AgOpenGPS.Properties.Resources.YouTurnNo;
@@ -256,7 +256,7 @@
             // 
             this.btnSectionMasterAuto.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnSectionMasterAuto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSectionMasterAuto.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSectionMasterAuto.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSectionMasterAuto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSectionMasterAuto.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSectionMasterAuto.Image = global::AgOpenGPS.Properties.Resources.SectionMasterOff;
@@ -275,7 +275,7 @@
             // 
             this.btnSectionMasterManual.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnSectionMasterManual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSectionMasterManual.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSectionMasterManual.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnSectionMasterManual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSectionMasterManual.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSectionMasterManual.Image = global::AgOpenGPS.Properties.Resources.ManualOff;
@@ -346,7 +346,7 @@
             // 
             this.btnContour.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnContour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnContour.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnContour.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnContour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnContour.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnContour.Image = global::AgOpenGPS.Properties.Resources.ContourOn;
@@ -363,7 +363,7 @@
             // 
             this.buttonLabelReset.BackColor = System.Drawing.Color.WhiteSmoke;
             this.buttonLabelReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.buttonLabelReset.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonLabelReset.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.buttonLabelReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLabelReset.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLabelReset.Image = global::AgOpenGPS.Properties.Resources.back_button;
@@ -416,7 +416,7 @@
             // 
             this.buttonLabelDefault.BackColor = System.Drawing.Color.WhiteSmoke;
             this.buttonLabelDefault.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.buttonLabelDefault.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonLabelDefault.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.buttonLabelDefault.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLabelDefault.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLabelDefault.Image = global::AgOpenGPS.Properties.Resources.ArrowRight;

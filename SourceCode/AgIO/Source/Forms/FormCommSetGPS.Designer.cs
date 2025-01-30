@@ -195,7 +195,7 @@
             this.cboxRtcmPort.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxRtcmPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxRtcmPort.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxRtcmPort.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxRtcmPort.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxRtcmPort.FormattingEnabled = true;
             this.cboxRtcmPort.Location = new System.Drawing.Point(244, 127);
             this.cboxRtcmPort.Name = "cboxRtcmPort";
@@ -208,7 +208,7 @@
             this.cboxRtcmBaud.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxRtcmBaud.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxRtcmBaud.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxRtcmBaud.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxRtcmBaud.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxRtcmBaud.FormattingEnabled = true;
             this.cboxRtcmBaud.Items.AddRange(new object[] {
             "4800",
@@ -250,7 +250,7 @@
             this.cboxPort.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxPort.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxPort.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxPort.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxPort.FormattingEnabled = true;
             this.cboxPort.Location = new System.Drawing.Point(244, 37);
             this.cboxPort.Name = "cboxPort";
@@ -263,7 +263,7 @@
             this.cboxBaud.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxBaud.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxBaud.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxBaud.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxBaud.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxBaud.FormattingEnabled = true;
             this.cboxBaud.Items.AddRange(new object[] {
             "4800",
@@ -365,7 +365,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.groupBox2.Controls.Add(this.cboxPort2);
             this.groupBox2.Controls.Add(this.cboxBaud2);
             this.groupBox2.Controls.Add(this.lblCurrentPort2);
@@ -386,7 +386,7 @@
             this.cboxPort2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxPort2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxPort2.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxPort2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxPort2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxPort2.FormattingEnabled = true;
             this.cboxPort2.Location = new System.Drawing.Point(10, 37);
             this.cboxPort2.Name = "cboxPort2";
@@ -399,7 +399,7 @@
             this.cboxBaud2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxBaud2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxBaud2.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxBaud2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxBaud2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxBaud2.FormattingEnabled = true;
             this.cboxBaud2.Items.AddRange(new object[] {
             "4800",
@@ -450,7 +450,7 @@
             // textBoxRcv2
             // 
             this.textBoxRcv2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxRcv2.BackColor = System.Drawing.SystemColors.Window;
+            this.textBoxRcv2.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.textBoxRcv2.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.textBoxRcv2.Location = new System.Drawing.Point(-355, 81);
             this.textBoxRcv2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -627,7 +627,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.groupBox5.Controls.Add(this.lblCurrentModule3Port);
             this.groupBox5.Controls.Add(this.cboxModule3Port);
             this.groupBox5.Controls.Add(this.btnOpenSerialModule3);
@@ -720,7 +720,7 @@
             this.cboxIMU.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxIMU.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxIMU.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxIMU.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxIMU.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxIMU.FormattingEnabled = true;
             this.cboxIMU.Location = new System.Drawing.Point(173, 57);
             this.cboxIMU.Name = "cboxIMU";
@@ -773,7 +773,7 @@
             this.btnRescan.FlatAppearance.BorderSize = 0;
             this.btnRescan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRescan.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRescan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRescan.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnRescan.Image = global::AgIO.Properties.Resources.ScanPorts;
             this.btnRescan.Location = new System.Drawing.Point(665, 620);
             this.btnRescan.Name = "btnRescan";
@@ -791,7 +791,7 @@
             this.btnSerialOK.FlatAppearance.BorderSize = 0;
             this.btnSerialOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSerialOK.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.btnSerialOK.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSerialOK.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSerialOK.Image = global::AgIO.Properties.Resources.OK64;
             this.btnSerialOK.Location = new System.Drawing.Point(826, 619);
             this.btnSerialOK.Name = "btnSerialOK";

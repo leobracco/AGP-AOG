@@ -178,7 +178,7 @@
             // btnC09
             // 
             this.btnC09.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnC09.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnC09.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaption);
             this.btnC09.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnC09.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC09.Location = new System.Drawing.Point(10, 131);

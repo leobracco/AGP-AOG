@@ -221,7 +221,7 @@
             this.checkBoxZoomIn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(160)))));
             this.checkBoxZoomIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxZoomIn.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxZoomIn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.checkBoxZoomIn.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.checkBoxZoomIn.Image = global::AgOpenGPS.Properties.Resources.ZoomOGL;
             this.checkBoxZoomIn.Location = new System.Drawing.Point(25, 539);
             this.checkBoxZoomIn.Name = "checkBoxZoomIn";
@@ -300,7 +300,7 @@
             this.btnBShrink.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnBShrink.BackColor = System.Drawing.Color.Transparent;
             this.btnBShrink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnBShrink.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnBShrink.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnBShrink.FlatAppearance.BorderSize = 0;
             this.btnBShrink.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnBShrink.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -320,7 +320,7 @@
             this.btnBLength.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnBLength.BackColor = System.Drawing.Color.Transparent;
             this.btnBLength.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnBLength.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnBLength.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnBLength.FlatAppearance.BorderSize = 0;
             this.btnBLength.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnBLength.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -403,7 +403,7 @@
             this.cboxIsSectionControlled.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.cboxIsSectionControlled.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsSectionControlled.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsSectionControlled.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxIsSectionControlled.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxIsSectionControlled.Image = global::AgOpenGPS.Properties.Resources.HeadlandSectionOn;
             this.cboxIsSectionControlled.Location = new System.Drawing.Point(177, 544);
             this.cboxIsSectionControlled.Name = "cboxIsSectionControlled";

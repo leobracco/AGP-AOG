@@ -311,7 +311,7 @@
             // 
             // btnGetIP
             // 
-            this.btnGetIP.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnGetIP.BackColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.btnGetIP.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetIP.Location = new System.Drawing.Point(74, 438);
             this.btnGetIP.Name = "btnGetIP";
@@ -754,7 +754,7 @@
             this.comboboxPacketSize.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.comboboxPacketSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboboxPacketSize.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboboxPacketSize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.comboboxPacketSize.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.comboboxPacketSize.FormattingEnabled = true;
             this.comboboxPacketSize.Items.AddRange(new object[] {
             "64",
@@ -800,7 +800,7 @@
             this.btnSerialOK.FlatAppearance.BorderSize = 0;
             this.btnSerialOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSerialOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSerialOK.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSerialOK.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSerialOK.Image = global::AgIO.Properties.Resources.OK64;
             this.btnSerialOK.Location = new System.Drawing.Point(650, 581);
             this.btnSerialOK.Name = "btnSerialOK";
@@ -831,7 +831,7 @@
             this.btnHelp.FlatAppearance.BorderSize = 0;
             this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnHelp.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnHelp.Image = global::AgIO.Properties.Resources.Help;
             this.btnHelp.Location = new System.Drawing.Point(162, 577);
             this.btnHelp.Name = "btnHelp";

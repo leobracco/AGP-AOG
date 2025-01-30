@@ -94,7 +94,7 @@
             // 
             this.lblNetworkHelp.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblNetworkHelp.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNetworkHelp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNetworkHelp.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblNetworkHelp.Location = new System.Drawing.Point(376, 500);
             this.lblNetworkHelp.Name = "lblNetworkHelp";
             this.lblNetworkHelp.Size = new System.Drawing.Size(279, 46);
@@ -515,7 +515,7 @@
             this.lblNewSubnet.BackColor = System.Drawing.Color.Gainsboro;
             this.lblNewSubnet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblNewSubnet.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNewSubnet.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNewSubnet.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblNewSubnet.Location = new System.Drawing.Point(404, 223);
             this.lblNewSubnet.Name = "lblNewSubnet";
             this.lblNewSubnet.Size = new System.Drawing.Size(244, 45);
@@ -540,7 +540,7 @@
             this.btnSerialMonitor.FlatAppearance.BorderSize = 0;
             this.btnSerialMonitor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSerialMonitor.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSerialMonitor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSerialMonitor.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSerialMonitor.Image = global::AgIO.Properties.Resources.ScanNetwork;
             this.btnSerialMonitor.Location = new System.Drawing.Point(756, 207);
             this.btnSerialMonitor.Name = "btnSerialMonitor";
@@ -557,7 +557,7 @@
             this.btnNetworkCPL.FlatAppearance.BorderSize = 0;
             this.btnNetworkCPL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNetworkCPL.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNetworkCPL.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnNetworkCPL.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnNetworkCPL.Location = new System.Drawing.Point(756, 1);
             this.btnNetworkCPL.Name = "btnNetworkCPL";
             this.btnNetworkCPL.Size = new System.Drawing.Size(76, 65);
@@ -572,7 +572,7 @@
             this.btnUDPOff.FlatAppearance.BorderSize = 0;
             this.btnUDPOff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUDPOff.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUDPOff.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnUDPOff.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnUDPOff.Image = global::AgIO.Properties.Resources.EthernetOff;
             this.btnUDPOff.Location = new System.Drawing.Point(740, 108);
             this.btnUDPOff.Margin = new System.Windows.Forms.Padding(0);
@@ -587,7 +587,7 @@
             this.btnSendSubnet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSendSubnet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSendSubnet.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSendSubnet.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSendSubnet.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSendSubnet.Image = global::AgIO.Properties.Resources.SubnetSend;
             this.btnSendSubnet.Location = new System.Drawing.Point(701, 373);
             this.btnSendSubnet.Name = "btnSendSubnet";

@@ -44,7 +44,7 @@
             // 
             this.labelFieldname.BackColor = System.Drawing.Color.Transparent;
             this.labelFieldname.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFieldname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelFieldname.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelFieldname.Location = new System.Drawing.Point(6, 54);
             this.labelFieldname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFieldname.Name = "labelFieldname";
@@ -61,7 +61,7 @@
             this.btnSerialCancel.FlatAppearance.BorderSize = 0;
             this.btnSerialCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSerialCancel.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.btnSerialCancel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSerialCancel.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSerialCancel.Image = global::AgOpenGPS.Properties.Resources.Cancel64;
             this.btnSerialCancel.Location = new System.Drawing.Point(524, 303);
             this.btnSerialCancel.Name = "btnSerialCancel";
@@ -100,7 +100,7 @@
             this.btnBuildFields.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnBuildFields.FlatAppearance.BorderSize = 0;
             this.btnBuildFields.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuildFields.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnBuildFields.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.btnBuildFields.Image = global::AgOpenGPS.Properties.Resources.FileSave;
             this.btnBuildFields.Location = new System.Drawing.Point(524, 414);
             this.btnBuildFields.Name = "btnBuildFields";
@@ -129,7 +129,7 @@
             this.btnAddDate.Enabled = false;
             this.btnAddDate.FlatAppearance.BorderSize = 0;
             this.btnAddDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddDate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAddDate.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAddDate.Image = global::AgOpenGPS.Properties.Resources.JobNameCalendar;
             this.btnAddDate.Location = new System.Drawing.Point(358, 54);
             this.btnAddDate.Name = "btnAddDate";
@@ -146,7 +146,7 @@
             this.btnAddTime.Enabled = false;
             this.btnAddTime.FlatAppearance.BorderSize = 0;
             this.btnAddTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddTime.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAddTime.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAddTime.Image = global::AgOpenGPS.Properties.Resources.JobNameTime;
             this.btnAddTime.Location = new System.Drawing.Point(524, 54);
             this.btnAddTime.Name = "btnAddTime";
@@ -161,7 +161,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label2.Location = new System.Drawing.Point(336, 76);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -174,7 +174,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label3.Location = new System.Drawing.Point(506, 76);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";

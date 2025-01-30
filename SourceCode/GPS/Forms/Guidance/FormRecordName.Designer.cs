@@ -45,7 +45,7 @@ namespace AgOpenGPS.Forms
             this.labelFilename.AutoSize = true;
             this.labelFilename.BackColor = System.Drawing.Color.Transparent;
             this.labelFilename.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFilename.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelFilename.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelFilename.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelFilename.Location = new System.Drawing.Point(31, 86);
             this.labelFilename.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -59,7 +59,7 @@ namespace AgOpenGPS.Forms
             this.labelEnterRecordName.AutoSize = true;
             this.labelEnterRecordName.BackColor = System.Drawing.Color.Transparent;
             this.labelEnterRecordName.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEnterRecordName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelEnterRecordName.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelEnterRecordName.Location = new System.Drawing.Point(31, 22);
             this.labelEnterRecordName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEnterRecordName.Name = "labelEnterRecordName";
@@ -84,7 +84,7 @@ namespace AgOpenGPS.Forms
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label4.Location = new System.Drawing.Point(188, 166);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -97,7 +97,7 @@ namespace AgOpenGPS.Forms
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label5.Location = new System.Drawing.Point(31, 166);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -113,7 +113,7 @@ namespace AgOpenGPS.Forms
             this.checkBoxRecordAddTime.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.checkBoxRecordAddTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxRecordAddTime.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxRecordAddTime.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.checkBoxRecordAddTime.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.checkBoxRecordAddTime.Image = global::AgOpenGPS.Properties.Resources.JobNameTime;
             this.checkBoxRecordAddTime.Location = new System.Drawing.Point(219, 142);
             this.checkBoxRecordAddTime.Name = "checkBoxRecordAddTime";
@@ -129,7 +129,7 @@ namespace AgOpenGPS.Forms
             this.buttonSave.BackColor = System.Drawing.Color.Transparent;
             this.buttonSave.FlatAppearance.BorderSize = 0;
             this.buttonSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSave.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonSave.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.buttonSave.Image = global::AgOpenGPS.Properties.Resources.OK64;
             this.buttonSave.Location = new System.Drawing.Point(579, 144);
             this.buttonSave.Name = "buttonSave";
@@ -147,7 +147,7 @@ namespace AgOpenGPS.Forms
             this.checkBoxRecordAddDate.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.checkBoxRecordAddDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxRecordAddDate.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxRecordAddDate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.checkBoxRecordAddDate.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.checkBoxRecordAddDate.Image = global::AgOpenGPS.Properties.Resources.JobNameCalendar;
             this.checkBoxRecordAddDate.Location = new System.Drawing.Point(62, 142);
             this.checkBoxRecordAddDate.Name = "checkBoxRecordAddDate";
@@ -166,7 +166,7 @@ namespace AgOpenGPS.Forms
             this.buttonRecordCancel.FlatAppearance.BorderSize = 0;
             this.buttonRecordCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRecordCancel.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.buttonRecordCancel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonRecordCancel.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.buttonRecordCancel.Image = global::AgOpenGPS.Properties.Resources.Cancel64;
             this.buttonRecordCancel.Location = new System.Drawing.Point(458, 143);
             this.buttonRecordCancel.Name = "buttonRecordCancel";

@@ -194,7 +194,7 @@
             this.btnBShrink.BackColor = System.Drawing.Color.Transparent;
             this.btnBShrink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnBShrink, 2);
-            this.btnBShrink.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnBShrink.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnBShrink.FlatAppearance.BorderSize = 0;
             this.btnBShrink.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnBShrink.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -234,7 +234,7 @@
             this.btnCycleBackward.BackColor = System.Drawing.Color.Transparent;
             this.btnCycleBackward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnCycleBackward, 2);
-            this.btnCycleBackward.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnCycleBackward.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnCycleBackward.FlatAppearance.BorderSize = 0;
             this.btnCycleBackward.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCycleBackward.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -304,7 +304,7 @@
             this.cboxIsSectionControlled.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.cboxIsSectionControlled.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsSectionControlled.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsSectionControlled.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxIsSectionControlled.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxIsSectionControlled.Image = global::AgOpenGPS.Properties.Resources.HeadlandSectionOff;
             this.cboxIsSectionControlled.Location = new System.Drawing.Point(216, 15);
             this.cboxIsSectionControlled.Name = "cboxIsSectionControlled";
@@ -321,7 +321,7 @@
             this.btnCycleForward.BackColor = System.Drawing.Color.Transparent;
             this.btnCycleForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnCycleForward, 2);
-            this.btnCycleForward.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnCycleForward.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnCycleForward.FlatAppearance.BorderSize = 0;
             this.btnCycleForward.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCycleForward.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -361,7 +361,7 @@
             this.btnBLength.BackColor = System.Drawing.Color.Transparent;
             this.btnBLength.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnBLength, 2);
-            this.btnBLength.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnBLength.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnBLength.FlatAppearance.BorderSize = 0;
             this.btnBLength.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnBLength.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -382,7 +382,7 @@
             this.btnDeleteCurve.BackColor = System.Drawing.Color.Transparent;
             this.btnDeleteCurve.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnDeleteCurve, 2);
-            this.btnDeleteCurve.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnDeleteCurve.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnDeleteCurve.FlatAppearance.BorderSize = 0;
             this.btnDeleteCurve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteCurve.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -425,7 +425,7 @@
             this.cboxIsZoom.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(160)))));
             this.cboxIsZoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsZoom.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsZoom.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxIsZoom.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxIsZoom.Image = global::AgOpenGPS.Properties.Resources.ZoomOGL;
             this.cboxIsZoom.Location = new System.Drawing.Point(3, 504);
             this.cboxIsZoom.Name = "cboxIsZoom";
@@ -487,7 +487,7 @@
             this.btnCancelTouch.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelTouch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlp1.SetColumnSpan(this.btnCancelTouch, 2);
-            this.btnCancelTouch.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnCancelTouch.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnCancelTouch.FlatAppearance.BorderSize = 0;
             this.btnCancelTouch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelTouch.Font = new System.Drawing.Font("Tahoma", 14.25F);

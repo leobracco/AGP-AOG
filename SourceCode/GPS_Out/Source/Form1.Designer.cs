@@ -300,7 +300,7 @@
             // 
             // PortIndicator1
             // 
-            this.PortIndicator1.BackColor = System.Drawing.SystemColors.Control;
+            this.PortIndicator1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.PortIndicator1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PortIndicator1.Image = global::GPS_Out.Properties.Resources.Off;
             this.PortIndicator1.Location = new System.Drawing.Point(453, 54);
@@ -337,7 +337,7 @@
             // 
             // btnConnect1
             // 
-            this.btnConnect1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnConnect1.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlLight);
             this.btnConnect1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnConnect1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConnect1.Location = new System.Drawing.Point(16, 54);
@@ -353,7 +353,7 @@
             this.cboBaud1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboBaud1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBaud1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboBaud1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboBaud1.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboBaud1.FormattingEnabled = true;
             this.cboBaud1.Items.AddRange(new object[] {
             "4800",
@@ -853,7 +853,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.ClientSize = new System.Drawing.Size(626, 536);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

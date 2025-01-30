@@ -156,7 +156,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.ClientSize = new System.Drawing.Size(689, 402);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);

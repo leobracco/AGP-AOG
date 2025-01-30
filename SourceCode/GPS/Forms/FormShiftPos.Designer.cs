@@ -269,7 +269,7 @@
             this.chkOffsetsOn.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkOffsetsOn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkOffsetsOn.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkOffsetsOn.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkOffsetsOn.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkOffsetsOn.Location = new System.Drawing.Point(93, 468);
             this.chkOffsetsOn.Name = "chkOffsetsOn";
             this.chkOffsetsOn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

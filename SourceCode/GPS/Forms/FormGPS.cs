@@ -26,6 +26,7 @@ using System.Windows.Forms;
 using System.Threading.Tasks;
 using AgOpenGPS.Forms.Seeders;
 
+
 namespace AgOpenGPS
 {
     //the main form object
@@ -282,6 +283,7 @@ namespace AgOpenGPS
                 Log.EventWriter($"Error MQTT: {ex.Message}");
             }
         }
+       
         public FormGPS()
         {
             //winform initialization
@@ -290,6 +292,7 @@ namespace AgOpenGPS
             //time keeper
             secondsSinceStart = (DateTime.Now - Process.GetCurrentProcess().StartTime).TotalSeconds;
             _ = InitializeMqttAsync();
+
             camera = new CCamera();
 
             //create the world grid
@@ -518,7 +521,11 @@ namespace AgOpenGPS
 
         private void btnAbrirConfig_Click(object sender, EventArgs e)
         {
-           
+            // Crea una instancia del formulario de configuración de sembradora
+            FormConfigSembradora formConfigSembradora = new FormConfigSembradora();
+
+            // Muestra el formulario
+            formConfigSembradora.Show();
         }
 
         private void FormGPS_FormClosing(object sender, FormClosingEventArgs e)

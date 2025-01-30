@@ -172,7 +172,7 @@
             // btnYellow
             // 
             this.btnYellow.BackColor = System.Drawing.Color.Transparent;
-            this.btnYellow.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnYellow.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnYellow.FlatAppearance.BorderSize = 0;
             this.btnYellow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYellow.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -189,7 +189,7 @@
             // btnRed
             // 
             this.btnRed.BackColor = System.Drawing.Color.Transparent;
-            this.btnRed.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnRed.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnRed.FlatAppearance.BorderSize = 0;
             this.btnRed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRed.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -206,7 +206,7 @@
             // btnGreen
             // 
             this.btnGreen.BackColor = System.Drawing.Color.Transparent;
-            this.btnGreen.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnGreen.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnGreen.FlatAppearance.BorderSize = 0;
             this.btnGreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGreen.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

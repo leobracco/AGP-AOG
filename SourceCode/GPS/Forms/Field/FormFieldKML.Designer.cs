@@ -56,7 +56,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label3.Location = new System.Drawing.Point(172, 153);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -69,7 +69,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label2.Location = new System.Drawing.Point(22, 152);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -84,7 +84,7 @@
             this.btnLoadKML.Enabled = false;
             this.btnLoadKML.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnLoadKML.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoadKML.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnLoadKML.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.btnLoadKML.Image = global::AgOpenGPS.Properties.Resources.BoundaryLoadFromGE;
             this.btnLoadKML.Location = new System.Drawing.Point(53, 238);
             this.btnLoadKML.Name = "btnLoadKML";
@@ -101,7 +101,7 @@
             this.btnSave.Enabled = false;
             this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSave.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSave.Image = global::AgOpenGPS.Properties.Resources.OK64;
             this.btnSave.Location = new System.Drawing.Point(520, 248);
             this.btnSave.Name = "btnSave";
@@ -120,7 +120,7 @@
             this.btnSerialCancel.FlatAppearance.BorderSize = 0;
             this.btnSerialCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSerialCancel.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.btnSerialCancel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSerialCancel.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSerialCancel.Image = global::AgOpenGPS.Properties.Resources.Cancel64;
             this.btnSerialCancel.Location = new System.Drawing.Point(376, 247);
             this.btnSerialCancel.Name = "btnSerialCancel";
@@ -135,7 +135,7 @@
             this.labelFieldname.AutoSize = true;
             this.labelFieldname.BackColor = System.Drawing.Color.Transparent;
             this.labelFieldname.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFieldname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelFieldname.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelFieldname.Location = new System.Drawing.Point(18, 11);
             this.labelFieldname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFieldname.Name = "labelFieldname";
@@ -149,7 +149,7 @@
             this.btnAddDate.BackColor = System.Drawing.Color.Transparent;
             this.btnAddDate.FlatAppearance.BorderSize = 0;
             this.btnAddDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddDate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAddDate.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAddDate.Image = global::AgOpenGPS.Properties.Resources.JobNameCalendar;
             this.btnAddDate.Location = new System.Drawing.Point(46, 125);
             this.btnAddDate.Name = "btnAddDate";
@@ -165,7 +165,7 @@
             this.btnAddTime.BackColor = System.Drawing.Color.Transparent;
             this.btnAddTime.FlatAppearance.BorderSize = 0;
             this.btnAddTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddTime.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAddTime.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAddTime.Image = global::AgOpenGPS.Properties.Resources.JobNameTime;
             this.btnAddTime.Location = new System.Drawing.Point(203, 126);
             this.btnAddTime.Name = "btnAddTime";

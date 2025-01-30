@@ -116,7 +116,7 @@
             this.btnFromKML.FlatAppearance.BorderSize = 0;
             this.btnFromKML.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFromKML.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFromKML.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnFromKML.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnFromKML.Image = global::AgOpenGPS.Properties.Resources.BoundaryLoadFromGE;
             this.btnFromKML.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFromKML.Location = new System.Drawing.Point(5, 110);
@@ -139,7 +139,7 @@
             this.btnFromISOXML.FlatAppearance.BorderSize = 0;
             this.btnFromISOXML.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFromISOXML.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFromISOXML.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnFromISOXML.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnFromISOXML.Image = global::AgOpenGPS.Properties.Resources.ISOXML;
             this.btnFromISOXML.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFromISOXML.Location = new System.Drawing.Point(5, 4);
@@ -172,7 +172,7 @@
             this.btnJobOpen.FlatAppearance.BorderSize = 0;
             this.btnJobOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJobOpen.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJobOpen.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnJobOpen.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnJobOpen.Image = global::AgOpenGPS.Properties.Resources.FileOpen;
             this.btnJobOpen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnJobOpen.Location = new System.Drawing.Point(319, 216);
@@ -196,7 +196,7 @@
             this.btnJobClose.FlatAppearance.BorderSize = 0;
             this.btnJobClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJobClose.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJobClose.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnJobClose.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnJobClose.Image = global::AgOpenGPS.Properties.Resources.FileClose;
             this.btnJobClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnJobClose.Location = new System.Drawing.Point(319, 4);
@@ -219,7 +219,7 @@
             this.btnInField.FlatAppearance.BorderSize = 0;
             this.btnInField.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInField.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInField.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnInField.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnInField.Image = global::AgOpenGPS.Properties.Resources.AutoManualIsAuto;
             this.btnInField.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInField.Location = new System.Drawing.Point(319, 110);
@@ -242,7 +242,7 @@
             this.btnJobResume.FlatAppearance.BorderSize = 0;
             this.btnJobResume.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJobResume.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJobResume.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnJobResume.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnJobResume.Image = global::AgOpenGPS.Properties.Resources.FilePrevious;
             this.btnJobResume.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnJobResume.Location = new System.Drawing.Point(319, 322);
@@ -265,7 +265,7 @@
             this.btnFromExisting.FlatAppearance.BorderSize = 0;
             this.btnFromExisting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFromExisting.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFromExisting.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnFromExisting.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnFromExisting.Image = global::AgOpenGPS.Properties.Resources.FileExisting;
             this.btnFromExisting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFromExisting.Location = new System.Drawing.Point(5, 216);
@@ -288,7 +288,7 @@
             this.btnJobNew.FlatAppearance.BorderSize = 0;
             this.btnJobNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJobNew.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJobNew.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnJobNew.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnJobNew.Image = global::AgOpenGPS.Properties.Resources.FileNew;
             this.btnJobNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnJobNew.Location = new System.Drawing.Point(5, 322);
@@ -325,7 +325,7 @@
             this.btnDeleteAB.FlatAppearance.BorderSize = 0;
             this.btnDeleteAB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteAB.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            this.btnDeleteAB.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnDeleteAB.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.btnDeleteAB.Image = global::AgOpenGPS.Properties.Resources.Cancel64;
             this.btnDeleteAB.Location = new System.Drawing.Point(486, 450);
             this.btnDeleteAB.Name = "btnDeleteAB";

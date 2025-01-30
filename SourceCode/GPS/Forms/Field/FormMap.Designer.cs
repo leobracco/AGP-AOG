@@ -102,7 +102,7 @@
             this.lblPoints.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.lblPoints, 2);
             this.lblPoints.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPoints.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPoints.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblPoints.Location = new System.Drawing.Point(108, 170);
             this.lblPoints.Name = "lblPoints";
             this.lblPoints.Size = new System.Drawing.Size(117, 23);
@@ -116,7 +116,7 @@
             this.lblBnds.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.lblBnds, 2);
             this.lblBnds.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBnds.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblBnds.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblBnds.Location = new System.Drawing.Point(108, 274);
             this.lblBnds.Name = "lblBnds";
             this.lblBnds.Size = new System.Drawing.Size(130, 80);
@@ -168,7 +168,7 @@
             this.labelNewBoundary.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelNewBoundary.BackColor = System.Drawing.Color.Transparent;
             this.labelNewBoundary.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNewBoundary.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelNewBoundary.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelNewBoundary.Location = new System.Drawing.Point(3, 82);
             this.labelNewBoundary.Name = "labelNewBoundary";
             this.labelNewBoundary.Size = new System.Drawing.Size(99, 23);
@@ -246,7 +246,7 @@
             this.cboxEnableLineDraw.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxEnableLineDraw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxEnableLineDraw.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxEnableLineDraw.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxEnableLineDraw.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxEnableLineDraw.Image = global::AgOpenGPS.Properties.Resources.BoundaryOuter;
             this.cboxEnableLineDraw.Location = new System.Drawing.Point(11, 5);
             this.cboxEnableLineDraw.Name = "cboxEnableLineDraw";
@@ -276,7 +276,7 @@
             this.labelBackground.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.labelBackground, 3);
             this.labelBackground.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBackground.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelBackground.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelBackground.Location = new System.Drawing.Point(15, 528);
             this.labelBackground.Name = "labelBackground";
             this.labelBackground.Size = new System.Drawing.Size(210, 31);
@@ -320,7 +320,7 @@
             this.labelBoundary.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.labelBoundary, 2);
             this.labelBoundary.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBoundary.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelBoundary.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelBoundary.Location = new System.Drawing.Point(108, 234);
             this.labelBoundary.Name = "labelBoundary";
             this.labelBoundary.Size = new System.Drawing.Size(130, 23);
@@ -338,7 +338,7 @@
             this.cboxDrawMap.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxDrawMap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxDrawMap.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxDrawMap.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxDrawMap.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxDrawMap.Image = global::AgOpenGPS.Properties.Resources.MappingOff;
             this.cboxDrawMap.Location = new System.Drawing.Point(81, 449);
             this.cboxDrawMap.Name = "cboxDrawMap";

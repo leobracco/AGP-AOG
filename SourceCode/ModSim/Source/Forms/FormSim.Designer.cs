@@ -350,7 +350,7 @@ namespace ModSim
             // cboxWorkSwitch
             // 
             this.cboxWorkSwitch.Appearance = System.Windows.Forms.Appearance.Button;
-            this.cboxWorkSwitch.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxWorkSwitch.BackColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxWorkSwitch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cboxWorkSwitch.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cboxWorkSwitch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -378,7 +378,7 @@ namespace ModSim
             // cboxSteerSwitchRemote
             // 
             this.cboxSteerSwitchRemote.Appearance = System.Windows.Forms.Appearance.Button;
-            this.cboxSteerSwitchRemote.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxSteerSwitchRemote.BackColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxSteerSwitchRemote.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cboxSteerSwitchRemote.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cboxSteerSwitchRemote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1796,7 +1796,7 @@ namespace ModSim
             this.Controls.Add(this.lbl9To16M);
             this.Controls.Add(this.lbl9To16);
             this.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;

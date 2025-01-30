@@ -48,7 +48,7 @@
             this.lvLines.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lvLines.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lvLines.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.InactiveCaption);
             this.lvLines.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chDistance,
             this.chName,
@@ -106,7 +106,7 @@
             // tboxMount
             // 
             this.tboxMount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.tboxMount.BackColor = System.Drawing.SystemColors.Window;
+            this.tboxMount.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
             this.tboxMount.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxMount.Location = new System.Drawing.Point(210, 554);
             this.tboxMount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

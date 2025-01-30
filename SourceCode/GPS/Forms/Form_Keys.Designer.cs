@@ -159,7 +159,7 @@
             // 
             // tboxKey
             // 
-            this.tboxKey.BackColor = System.Drawing.SystemColors.Control;
+            this.tboxKey.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.tboxKey.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tboxKey.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxKey.ForeColor = System.Drawing.Color.OrangeRed;

@@ -465,7 +465,7 @@ namespace AgOpenGPS
             }
 
             //if (hsbarMinPWM.Value > hsbarLowSteerPWM.Value) lblMinPWM.ForeColor = Color.OrangeRed;
-            //else lblMinPWM.ForeColor = SystemColors.ControlText;
+            //else lblMinPWM.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
 
             if (mf.mc.sensorData != -1)
             {

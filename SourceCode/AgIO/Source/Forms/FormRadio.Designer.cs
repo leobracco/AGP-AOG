@@ -82,7 +82,7 @@ namespace AgIO
             this.cboxBaud.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboxBaud.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxBaud.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
-            this.cboxBaud.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cboxBaud.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxBaud.FormattingEnabled = true;
             this.cboxBaud.Items.AddRange(new object[] {
             "4800",
@@ -113,7 +113,7 @@ namespace AgIO
             this.lvChannels.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lvChannels.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lvChannels.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.InactiveCaption);
             this.lvChannels.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeaderId,
             this.columnHeaderName,
@@ -261,7 +261,7 @@ namespace AgIO
             this.btnRescan.FlatAppearance.BorderSize = 0;
             this.btnRescan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRescan.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRescan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRescan.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnRescan.Image = global::AgIO.Properties.Resources.ScanPorts;
             this.btnRescan.Location = new System.Drawing.Point(703, 469);
             this.btnRescan.Name = "btnRescan";
@@ -322,7 +322,7 @@ namespace AgIO
             this.btnRadioOK.FlatAppearance.BorderSize = 0;
             this.btnRadioOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRadioOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRadioOK.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRadioOK.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnRadioOK.Image = global::AgIO.Properties.Resources.OK64;
             this.btnRadioOK.Location = new System.Drawing.Point(703, 560);
             this.btnRadioOK.Name = "btnRadioOK";

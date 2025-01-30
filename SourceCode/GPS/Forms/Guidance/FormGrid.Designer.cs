@@ -85,7 +85,7 @@
             this.btnCancelTouch.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelTouch.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelTouch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCancelTouch.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnCancelTouch.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnCancelTouch.FlatAppearance.BorderSize = 0;
             this.btnCancelTouch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelTouch.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -138,7 +138,7 @@
             this.btnAlignToTrack.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAlignToTrack.BackColor = System.Drawing.Color.Transparent;
             this.btnAlignToTrack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAlignToTrack.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAlignToTrack.FlatAppearance.BorderColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.HotTrack);
             this.btnAlignToTrack.FlatAppearance.BorderSize = 0;
             this.btnAlignToTrack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlignToTrack.Font = new System.Drawing.Font("Tahoma", 14.25F);

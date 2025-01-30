@@ -55,7 +55,8 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            //this.label1.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
+            this.label1.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label1.Location = new System.Drawing.Point(2, 458);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 23);
@@ -73,7 +74,7 @@
             this.lblArea.AutoSize = true;
             this.lblArea.BackColor = System.Drawing.Color.Transparent;
             this.lblArea.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArea.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblArea.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblArea.Location = new System.Drawing.Point(56, 458);
             this.lblArea.Name = "lblArea";
             this.lblArea.Size = new System.Drawing.Size(46, 23);
@@ -85,7 +86,7 @@
             // 
             this.lblMetersInches.BackColor = System.Drawing.Color.Transparent;
             this.lblMetersInches.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMetersInches.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblMetersInches.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblMetersInches.Location = new System.Drawing.Point(137, 14);
             this.lblMetersInches.Name = "lblMetersInches";
             this.lblMetersInches.Size = new System.Drawing.Size(102, 23);
@@ -98,7 +99,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label3.Location = new System.Drawing.Point(161, 270);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 23);
@@ -111,7 +112,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label4.Location = new System.Drawing.Point(161, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(24, 23);
@@ -124,7 +125,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label5.Location = new System.Drawing.Point(161, 389);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 23);
@@ -141,7 +142,7 @@
             this.cboxIsRecBoundaryWhenSectionOn.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleTurquoise;
             this.cboxIsRecBoundaryWhenSectionOn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxIsRecBoundaryWhenSectionOn.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxIsRecBoundaryWhenSectionOn.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cboxIsRecBoundaryWhenSectionOn.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.cboxIsRecBoundaryWhenSectionOn.Image = global::AgOpenGPS.Properties.Resources.BoundarySectionControlOnOff;
             this.cboxIsRecBoundaryWhenSectionOn.Location = new System.Drawing.Point(155, 54);
             this.cboxIsRecBoundaryWhenSectionOn.Name = "cboxIsRecBoundaryWhenSectionOn";
@@ -284,7 +285,7 @@
             this.lblPoints.AutoSize = true;
             this.lblPoints.BackColor = System.Drawing.Color.Transparent;
             this.lblPoints.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPoints.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPoints.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblPoints.Location = new System.Drawing.Point(62, 370);
             this.lblPoints.Name = "lblPoints";
             this.lblPoints.Size = new System.Drawing.Size(46, 23);
@@ -297,7 +298,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label2.Location = new System.Drawing.Point(1, 369);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 23);

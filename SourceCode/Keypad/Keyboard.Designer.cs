@@ -98,7 +98,7 @@
             // 
             // a3
             // 
-            this.a3.BackColor = System.Drawing.SystemColors.Control;
+            this.a3.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a3.Location = new System.Drawing.Point(150, 1);
@@ -113,7 +113,7 @@
             // c7
             // 
             this.c7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c7.BackColor = System.Drawing.SystemColors.Control;
+            this.c7.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c7.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c7.Location = new System.Drawing.Point(472, 212);
@@ -128,7 +128,7 @@
             // c8
             // 
             this.c8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c8.BackColor = System.Drawing.SystemColors.Control;
+            this.c8.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c8.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c8.Location = new System.Drawing.Point(546, 212);
@@ -143,7 +143,7 @@
             // c9
             // 
             this.c9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c9.BackColor = System.Drawing.SystemColors.Control;
+            this.c9.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c9.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c9.Location = new System.Drawing.Point(620, 212);
@@ -158,7 +158,7 @@
             // c10
             // 
             this.c10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c10.BackColor = System.Drawing.SystemColors.Control;
+            this.c10.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c10.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c10.Location = new System.Drawing.Point(694, 212);
@@ -173,7 +173,7 @@
             // d1
             // 
             this.d1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d1.BackColor = System.Drawing.SystemColors.Control;
+            this.d1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d1.Location = new System.Drawing.Point(45, 293);
@@ -188,7 +188,7 @@
             // d2
             // 
             this.d2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d2.BackColor = System.Drawing.SystemColors.Control;
+            this.d2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d2.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d2.Location = new System.Drawing.Point(119, 293);
@@ -203,7 +203,7 @@
             // d3
             // 
             this.d3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d3.BackColor = System.Drawing.SystemColors.Control;
+            this.d3.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d3.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d3.Location = new System.Drawing.Point(193, 293);
@@ -218,7 +218,7 @@
             // d4
             // 
             this.d4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d4.BackColor = System.Drawing.SystemColors.Control;
+            this.d4.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d4.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d4.Location = new System.Drawing.Point(267, 293);
@@ -233,7 +233,7 @@
             // d5
             // 
             this.d5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d5.BackColor = System.Drawing.SystemColors.Control;
+            this.d5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d5.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d5.Location = new System.Drawing.Point(341, 293);
@@ -248,7 +248,7 @@
             // d6
             // 
             this.d6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d6.BackColor = System.Drawing.SystemColors.Control;
+            this.d6.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d6.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d6.Location = new System.Drawing.Point(415, 293);
@@ -263,7 +263,7 @@
             // d7
             // 
             this.d7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d7.BackColor = System.Drawing.SystemColors.Control;
+            this.d7.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d7.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d7.Location = new System.Drawing.Point(489, 293);
@@ -278,7 +278,7 @@
             // d8
             // 
             this.d8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d8.BackColor = System.Drawing.SystemColors.Control;
+            this.d8.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d8.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d8.Location = new System.Drawing.Point(563, 293);
@@ -293,7 +293,7 @@
             // d9
             // 
             this.d9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d9.BackColor = System.Drawing.SystemColors.Control;
+            this.d9.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d9.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d9.Location = new System.Drawing.Point(637, 293);
@@ -308,7 +308,7 @@
             // e3
             // 
             this.e3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e3.BackColor = System.Drawing.SystemColors.Control;
+            this.e3.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e3.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e3.Location = new System.Drawing.Point(150, 375);
@@ -323,7 +323,7 @@
             // e4
             // 
             this.e4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e4.BackColor = System.Drawing.SystemColors.Control;
+            this.e4.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e4.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e4.Location = new System.Drawing.Point(223, 375);
@@ -338,7 +338,7 @@
             // e5
             // 
             this.e5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e5.BackColor = System.Drawing.SystemColors.Control;
+            this.e5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e5.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e5.Location = new System.Drawing.Point(296, 375);
@@ -353,7 +353,7 @@
             // e6
             // 
             this.e6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e6.BackColor = System.Drawing.SystemColors.Control;
+            this.e6.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e6.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e6.Location = new System.Drawing.Point(369, 375);
@@ -368,7 +368,7 @@
             // e7
             // 
             this.e7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e7.BackColor = System.Drawing.SystemColors.Control;
+            this.e7.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e7.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e7.Location = new System.Drawing.Point(442, 375);
@@ -383,7 +383,7 @@
             // e8
             // 
             this.e8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e8.BackColor = System.Drawing.SystemColors.Control;
+            this.e8.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e8.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e8.Location = new System.Drawing.Point(515, 375);
@@ -398,7 +398,7 @@
             // e9
             // 
             this.e9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e9.BackColor = System.Drawing.SystemColors.Control;
+            this.e9.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e9.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e9.Location = new System.Drawing.Point(588, 375);
@@ -413,7 +413,7 @@
             // btn_space
             // 
             this.btn_space.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_space.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_space.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn_space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_space.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_space.Location = new System.Drawing.Point(308, 456);
@@ -442,7 +442,7 @@
             // 
             // a1
             // 
-            this.a1.BackColor = System.Drawing.SystemColors.Control;
+            this.a1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a1.Location = new System.Drawing.Point(4, 1);
@@ -456,7 +456,7 @@
             // 
             // a2
             // 
-            this.a2.BackColor = System.Drawing.SystemColors.Control;
+            this.a2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a2.Location = new System.Drawing.Point(77, 1);
@@ -470,7 +470,7 @@
             // 
             // a4
             // 
-            this.a4.BackColor = System.Drawing.SystemColors.Control;
+            this.a4.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a4.Location = new System.Drawing.Point(223, 1);
@@ -484,7 +484,7 @@
             // 
             // a8
             // 
-            this.a8.BackColor = System.Drawing.SystemColors.Control;
+            this.a8.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a8.Location = new System.Drawing.Point(515, 1);
@@ -498,7 +498,7 @@
             // 
             // a9
             // 
-            this.a9.BackColor = System.Drawing.SystemColors.Control;
+            this.a9.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a9.Location = new System.Drawing.Point(588, 1);
@@ -512,7 +512,7 @@
             // 
             // a7
             // 
-            this.a7.BackColor = System.Drawing.SystemColors.Control;
+            this.a7.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a7.Location = new System.Drawing.Point(442, 1);
@@ -527,7 +527,7 @@
             // c1
             // 
             this.c1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c1.BackColor = System.Drawing.SystemColors.Control;
+            this.c1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c1.Location = new System.Drawing.Point(28, 212);
@@ -541,7 +541,7 @@
             // 
             // a10
             // 
-            this.a10.BackColor = System.Drawing.SystemColors.Control;
+            this.a10.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a10.Location = new System.Drawing.Point(661, 1);
@@ -555,7 +555,7 @@
             // 
             // a5
             // 
-            this.a5.BackColor = System.Drawing.SystemColors.Control;
+            this.a5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a5.Location = new System.Drawing.Point(296, 1);
@@ -569,7 +569,7 @@
             // 
             // a6
             // 
-            this.a6.BackColor = System.Drawing.SystemColors.Control;
+            this.a6.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a6.Location = new System.Drawing.Point(369, 1);
@@ -584,7 +584,7 @@
             // c2
             // 
             this.c2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c2.BackColor = System.Drawing.SystemColors.Control;
+            this.c2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c2.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c2.Location = new System.Drawing.Point(102, 212);
@@ -599,7 +599,7 @@
             // c3
             // 
             this.c3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c3.BackColor = System.Drawing.SystemColors.Control;
+            this.c3.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c3.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c3.Location = new System.Drawing.Point(176, 212);
@@ -614,7 +614,7 @@
             // c4
             // 
             this.c4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c4.BackColor = System.Drawing.SystemColors.Control;
+            this.c4.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c4.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c4.Location = new System.Drawing.Point(250, 212);
@@ -629,7 +629,7 @@
             // c5
             // 
             this.c5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c5.BackColor = System.Drawing.SystemColors.Control;
+            this.c5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c5.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c5.Location = new System.Drawing.Point(324, 212);
@@ -644,7 +644,7 @@
             // c6
             // 
             this.c6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c6.BackColor = System.Drawing.SystemColors.Control;
+            this.c6.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c6.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c6.Location = new System.Drawing.Point(398, 212);
@@ -660,7 +660,7 @@
             // 
             this.chk_shift.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.chk_shift.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chk_shift.BackColor = System.Drawing.SystemColors.Control;
+            this.chk_shift.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.chk_shift.BackgroundImage = global::Keypad.Properties.Resources.Shift;
             this.chk_shift.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.chk_shift.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -691,7 +691,7 @@
             // btn_OK
             // 
             this.btn_OK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_OK.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_OK.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_OK.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_OK.Image = global::Keypad.Properties.Resources.OK64;
@@ -706,7 +706,7 @@
             // btn_cancel
             // 
             this.btn_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_cancel.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_cancel.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cancel.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cancel.Image = global::Keypad.Properties.Resources.Cancel64;
@@ -721,7 +721,7 @@
             // e11
             // 
             this.e11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e11.BackColor = System.Drawing.SystemColors.Control;
+            this.e11.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e11.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e11.Location = new System.Drawing.Point(736, 374);
@@ -736,7 +736,7 @@
             // e1
             // 
             this.e1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e1.BackColor = System.Drawing.SystemColors.Control;
+            this.e1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e1.Location = new System.Drawing.Point(4, 375);
@@ -751,7 +751,7 @@
             // d10
             // 
             this.d10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d10.BackColor = System.Drawing.SystemColors.Control;
+            this.d10.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d10.Location = new System.Drawing.Point(711, 293);
@@ -766,7 +766,7 @@
             // e10
             // 
             this.e10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e10.BackColor = System.Drawing.SystemColors.Control;
+            this.e10.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e10.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e10.Location = new System.Drawing.Point(661, 375);
@@ -780,7 +780,7 @@
             // 
             // b6
             // 
-            this.b6.BackColor = System.Drawing.SystemColors.Control;
+            this.b6.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b6.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b6.Location = new System.Drawing.Point(385, 82);
@@ -794,7 +794,7 @@
             // 
             // b5
             // 
-            this.b5.BackColor = System.Drawing.SystemColors.Control;
+            this.b5.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b5.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b5.Location = new System.Drawing.Point(311, 82);
@@ -808,7 +808,7 @@
             // 
             // b4
             // 
-            this.b4.BackColor = System.Drawing.SystemColors.Control;
+            this.b4.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b4.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b4.Location = new System.Drawing.Point(237, 82);
@@ -822,7 +822,7 @@
             // 
             // b3
             // 
-            this.b3.BackColor = System.Drawing.SystemColors.Control;
+            this.b3.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b3.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b3.Location = new System.Drawing.Point(163, 82);
@@ -836,7 +836,7 @@
             // 
             // b2
             // 
-            this.b2.BackColor = System.Drawing.SystemColors.Control;
+            this.b2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b2.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b2.Location = new System.Drawing.Point(89, 82);
@@ -850,7 +850,7 @@
             // 
             // b1
             // 
-            this.b1.BackColor = System.Drawing.SystemColors.Control;
+            this.b1.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b1.Location = new System.Drawing.Point(15, 82);
@@ -864,7 +864,7 @@
             // 
             // b10
             // 
-            this.b10.BackColor = System.Drawing.SystemColors.Control;
+            this.b10.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b10.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b10.Location = new System.Drawing.Point(681, 82);
@@ -878,7 +878,7 @@
             // 
             // b9
             // 
-            this.b9.BackColor = System.Drawing.SystemColors.Control;
+            this.b9.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b9.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b9.Location = new System.Drawing.Point(607, 82);
@@ -892,7 +892,7 @@
             // 
             // b8
             // 
-            this.b8.BackColor = System.Drawing.SystemColors.Control;
+            this.b8.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b8.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b8.Location = new System.Drawing.Point(533, 82);
@@ -906,7 +906,7 @@
             // 
             // b7
             // 
-            this.b7.BackColor = System.Drawing.SystemColors.Control;
+            this.b7.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b7.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b7.Location = new System.Drawing.Point(459, 82);
@@ -920,7 +920,7 @@
             // 
             // b11
             // 
-            this.b11.BackColor = System.Drawing.SystemColors.Control;
+            this.b11.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b11.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b11.Location = new System.Drawing.Point(755, 82);
@@ -935,7 +935,7 @@
             // e12
             // 
             this.e12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e12.BackColor = System.Drawing.SystemColors.Control;
+            this.e12.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e12.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e12.Location = new System.Drawing.Point(813, 374);
@@ -949,7 +949,7 @@
             // 
             // a11
             // 
-            this.a11.BackColor = System.Drawing.SystemColors.Control;
+            this.a11.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.a11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a11.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a11.Location = new System.Drawing.Point(734, 1);
@@ -964,7 +964,7 @@
             // e2
             // 
             this.e2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.e2.BackColor = System.Drawing.SystemColors.Control;
+            this.e2.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.e2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e2.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e2.Location = new System.Drawing.Point(77, 375);
@@ -979,7 +979,7 @@
             // btnApos
             // 
             this.btnApos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApos.BackColor = System.Drawing.SystemColors.Control;
+            this.btnApos.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.btnApos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnApos.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApos.Location = new System.Drawing.Point(218, 457);
@@ -994,7 +994,7 @@
             // c11
             // 
             this.c11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c11.BackColor = System.Drawing.SystemColors.Control;
+            this.c11.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c11.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c11.Location = new System.Drawing.Point(766, 212);
@@ -1009,7 +1009,7 @@
             // c12
             // 
             this.c12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.c12.BackColor = System.Drawing.SystemColors.Control;
+            this.c12.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.c12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c12.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c12.Location = new System.Drawing.Point(839, 212);
@@ -1023,7 +1023,7 @@
             // 
             // b12
             // 
-            this.b12.BackColor = System.Drawing.SystemColors.Control;
+            this.b12.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.b12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b12.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b12.Location = new System.Drawing.Point(829, 82);
@@ -1038,7 +1038,7 @@
             // d11
             // 
             this.d11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d11.BackColor = System.Drawing.SystemColors.Control;
+            this.d11.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d11.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d11.Location = new System.Drawing.Point(785, 293);
@@ -1053,7 +1053,7 @@
             // d12
             // 
             this.d12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.d12.BackColor = System.Drawing.SystemColors.Control;
+            this.d12.BackColor =  System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Control);
             this.d12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d12.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.d12.Location = new System.Drawing.Point(859, 293);
@@ -1069,7 +1069,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);
             this.Controls.Add(this.d12);
             this.Controls.Add(this.d11);
             this.Controls.Add(this.b12);

@@ -67,11 +67,11 @@
             // 
             // btnNight
             // 
-            this.btnNight.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnNight.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnNight.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnNight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNight.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNight.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnNight.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.btnNight.Location = new System.Drawing.Point(454, 204);
             this.btnNight.Name = "btnNight";
             this.btnNight.Size = new System.Drawing.Size(120, 162);
@@ -263,7 +263,7 @@
             // btn08
             // 
             this.btn08.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn08.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn08.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaption);
             this.btn08.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn08.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn08.Location = new System.Drawing.Point(164, 92);

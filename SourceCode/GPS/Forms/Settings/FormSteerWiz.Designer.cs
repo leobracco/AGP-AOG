@@ -425,7 +425,7 @@
             this.lblPWMDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPWMDisplay.BackColor = System.Drawing.Color.White;
             this.lblPWMDisplay.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPWMDisplay.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPWMDisplay.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblPWMDisplay.Location = new System.Drawing.Point(607, 96);
             this.lblPWMDisplay.Name = "lblPWMDisplay";
             this.lblPWMDisplay.Size = new System.Drawing.Size(46, 23);
@@ -438,7 +438,7 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label9.Location = new System.Drawing.Point(547, 95);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(64, 23);
@@ -487,7 +487,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label14.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label14.Location = new System.Drawing.Point(355, 71);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(45, 16);
@@ -501,7 +501,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label8.Location = new System.Drawing.Point(296, 157);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(128, 25);
@@ -515,7 +515,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label1.Location = new System.Drawing.Point(320, 189);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 25);
@@ -529,7 +529,7 @@
             this.lblCalcSteerAngleInner.AutoSize = true;
             this.lblCalcSteerAngleInner.BackColor = System.Drawing.Color.Transparent;
             this.lblCalcSteerAngleInner.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCalcSteerAngleInner.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCalcSteerAngleInner.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblCalcSteerAngleInner.Location = new System.Drawing.Point(419, 158);
             this.lblCalcSteerAngleInner.Name = "lblCalcSteerAngleInner";
             this.lblCalcSteerAngleInner.Size = new System.Drawing.Size(45, 25);
@@ -543,7 +543,7 @@
             this.lblDiameter.AutoSize = true;
             this.lblDiameter.BackColor = System.Drawing.Color.Transparent;
             this.lblDiameter.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiameter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblDiameter.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblDiameter.Location = new System.Drawing.Point(419, 190);
             this.lblDiameter.Name = "lblDiameter";
             this.lblDiameter.Size = new System.Drawing.Size(71, 25);
@@ -906,7 +906,7 @@
             // label20
             // 
             this.label20.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label20.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.label20.Location = new System.Drawing.Point(579, 228);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(204, 30);
@@ -928,7 +928,7 @@
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label18.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.label18.Location = new System.Drawing.Point(561, 13);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(204, 30);
@@ -1457,7 +1457,7 @@
             // btnSteerStatus
             // 
             this.btnSteerStatus.BackColor = System.Drawing.Color.White;
-            this.btnSteerStatus.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnSteerStatus.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSteerStatus.FlatAppearance.BorderSize = 0;
             this.btnSteerStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSteerStatus.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1474,7 +1474,7 @@
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.Transparent;
             this.label35.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label35.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label35.Location = new System.Drawing.Point(194, 74);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(33, 16);
@@ -1487,7 +1487,7 @@
             this.label34.AutoSize = true;
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label34.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label34.Location = new System.Drawing.Point(572, 74);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(41, 16);
@@ -1514,7 +1514,7 @@
             this.label38.AutoSize = true;
             this.label38.BackColor = System.Drawing.Color.Transparent;
             this.label38.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label38.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label38.Location = new System.Drawing.Point(13, 72);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(73, 16);
@@ -1558,7 +1558,7 @@
             this.btnFreeDrive.FlatAppearance.BorderSize = 0;
             this.btnFreeDrive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFreeDrive.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFreeDrive.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnFreeDrive.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnFreeDrive.Image = global::AgOpenGPS.Properties.Resources.SteerDriveOff;
             this.btnFreeDrive.Location = new System.Drawing.Point(13, 13);
             this.btnFreeDrive.Name = "btnFreeDrive";
@@ -1659,7 +1659,7 @@
             // btnStartWizard
             // 
             this.btnStartWizard.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnStartWizard.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnStartWizard.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnStartWizard.FlatAppearance.BorderSize = 2;
             this.btnStartWizard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStartWizard.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1718,7 +1718,7 @@
             // 
             this.btnOkNext_LoadDefault.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_LoadDefault.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_LoadDefault.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_LoadDefault.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_LoadDefault.FlatAppearance.BorderSize = 0;
             this.btnOkNext_LoadDefault.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_LoadDefault.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1735,7 +1735,7 @@
             // 
             this.btnLoadDefaults.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLoadDefaults.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnLoadDefaults.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnLoadDefaults.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnLoadDefaults.FlatAppearance.BorderSize = 2;
             this.btnLoadDefaults.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoadDefaults.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1797,7 +1797,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1866,7 +1866,7 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1963,7 +1963,7 @@
             // 
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -1993,7 +1993,7 @@
             // 
             this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button8.BackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2039,7 +2039,7 @@
             // 
             this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button9.BackColor = System.Drawing.Color.Transparent;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2098,7 +2098,7 @@
             // 
             this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button10.BackColor = System.Drawing.Color.Transparent;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2172,7 +2172,7 @@
             // 
             this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button13.BackColor = System.Drawing.Color.Transparent;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2240,7 +2240,7 @@
             // 
             this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button14.BackColor = System.Drawing.Color.Transparent;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2274,7 +2274,7 @@
             // 
             this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button11.BackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2348,7 +2348,7 @@
             // 
             this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button12.BackColor = System.Drawing.Color.Transparent;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2394,7 +2394,7 @@
             // 
             this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button15.BackColor = System.Drawing.Color.Transparent;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2423,7 +2423,7 @@
             // 
             this.btnOkNext_ButtonSwitch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_ButtonSwitch.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_ButtonSwitch.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_ButtonSwitch.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_ButtonSwitch.FlatAppearance.BorderSize = 0;
             this.btnOkNext_ButtonSwitch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_ButtonSwitch.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2454,7 +2454,7 @@
             // 
             this.btnPrev_A2D.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_A2D.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_A2D.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_A2D.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_A2D.FlatAppearance.BorderSize = 0;
             this.btnPrev_A2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_A2D.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2483,7 +2483,7 @@
             // 
             this.btnOkNext_A2D.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_A2D.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_A2D.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_A2D.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_A2D.FlatAppearance.BorderSize = 0;
             this.btnOkNext_A2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_A2D.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2514,7 +2514,7 @@
             // 
             this.btnPrev_MotorDriver.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_MotorDriver.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_MotorDriver.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_MotorDriver.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_MotorDriver.FlatAppearance.BorderSize = 0;
             this.btnPrev_MotorDriver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_MotorDriver.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2543,7 +2543,7 @@
             // 
             this.btnOkNext_MotorDriver.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_MotorDriver.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_MotorDriver.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_MotorDriver.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_MotorDriver.FlatAppearance.BorderSize = 0;
             this.btnOkNext_MotorDriver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_MotorDriver.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2577,7 +2577,7 @@
             this.label59.AutoSize = true;
             this.label59.BackColor = System.Drawing.Color.Transparent;
             this.label59.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label59.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label59.Location = new System.Drawing.Point(282, 236);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(95, 16);
@@ -2589,7 +2589,7 @@
             // 
             this.btnPrev_InvertRelays.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_InvertRelays.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_InvertRelays.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_InvertRelays.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_InvertRelays.FlatAppearance.BorderSize = 0;
             this.btnPrev_InvertRelays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_InvertRelays.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2618,7 +2618,7 @@
             // 
             this.btnOkNext_InvertRelays.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_InvertRelays.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_InvertRelays.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_InvertRelays.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_InvertRelays.FlatAppearance.BorderSize = 0;
             this.btnOkNext_InvertRelays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_InvertRelays.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2640,7 +2640,7 @@
             this.chkSteerInvertRelays.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkSteerInvertRelays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkSteerInvertRelays.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkSteerInvertRelays.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkSteerInvertRelays.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkSteerInvertRelays.Image = global::AgOpenGPS.Properties.Resources.ConSt_InvertRelay;
             this.chkSteerInvertRelays.Location = new System.Drawing.Point(274, 155);
             this.chkSteerInvertRelays.Name = "chkSteerInvertRelays";
@@ -2669,7 +2669,7 @@
             // 
             this.btnPrev_Danfoss.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_Danfoss.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_Danfoss.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_Danfoss.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_Danfoss.FlatAppearance.BorderSize = 0;
             this.btnPrev_Danfoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_Danfoss.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2698,7 +2698,7 @@
             // 
             this.btnOkNext_Danfoss.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_Danfoss.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_Danfoss.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_Danfoss.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_Danfoss.FlatAppearance.BorderSize = 0;
             this.btnOkNext_Danfoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_Danfoss.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -2720,7 +2720,7 @@
             this.cboxDanfoss.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxDanfoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxDanfoss.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxDanfoss.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxDanfoss.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxDanfoss.Image = global::AgOpenGPS.Properties.Resources.ConSt_Danfoss;
             this.cboxDanfoss.Location = new System.Drawing.Point(274, 155);
             this.cboxDanfoss.Name = "cboxDanfoss";
@@ -2823,7 +2823,7 @@
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3008,7 +3008,7 @@
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3072,7 +3072,7 @@
             this.label45.AutoSize = true;
             this.label45.BackColor = System.Drawing.Color.Transparent;
             this.label45.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label45.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label45.Location = new System.Drawing.Point(290, 236);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(83, 16);
@@ -3084,7 +3084,7 @@
             // 
             this.btnPrev_InvertWAS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_InvertWAS.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_InvertWAS.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_InvertWAS.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_InvertWAS.FlatAppearance.BorderSize = 0;
             this.btnPrev_InvertWAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_InvertWAS.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3113,7 +3113,7 @@
             // 
             this.btnOkWAS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkWAS.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkWAS.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkWAS.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkWAS.FlatAppearance.BorderSize = 0;
             this.btnOkWAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkWAS.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3137,7 +3137,7 @@
             this.chkInvertWAS.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkInvertWAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkInvertWAS.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkInvertWAS.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkInvertWAS.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkInvertWAS.Image = global::AgOpenGPS.Properties.Resources.ConSt_InvertWAS;
             this.chkInvertWAS.Location = new System.Drawing.Point(274, 155);
             this.chkInvertWAS.Name = "chkInvertWAS";
@@ -3173,7 +3173,7 @@
             this.label112.AutoSize = true;
             this.label112.BackColor = System.Drawing.Color.Transparent;
             this.label112.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label112.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label112.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label112.Location = new System.Drawing.Point(75, 161);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(45, 16);
@@ -3209,7 +3209,7 @@
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3229,7 +3229,7 @@
             this.btnRemoveWasOffset.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
             this.btnRemoveWasOffset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemoveWasOffset.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemoveWasOffset.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRemoveWasOffset.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnRemoveWasOffset.Image = global::AgOpenGPS.Properties.Resources.WizWasZeroReset;
             this.btnRemoveWasOffset.Location = new System.Drawing.Point(71, 180);
             this.btnRemoveWasOffset.Name = "btnRemoveWasOffset";
@@ -3254,7 +3254,7 @@
             // 
             this.btnOkNext_WAS_Zero.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_WAS_Zero.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_WAS_Zero.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_WAS_Zero.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_WAS_Zero.FlatAppearance.BorderSize = 0;
             this.btnOkNext_WAS_Zero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_WAS_Zero.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3274,7 +3274,7 @@
             this.btnZeroWAS.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
             this.btnZeroWAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZeroWAS.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZeroWAS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZeroWAS.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZeroWAS.Image = global::AgOpenGPS.Properties.Resources.SteerZero;
             this.btnZeroWAS.Location = new System.Drawing.Point(273, 97);
             this.btnZeroWAS.Name = "btnZeroWAS";
@@ -3310,7 +3310,7 @@
             this.label58.AutoSize = true;
             this.label58.BackColor = System.Drawing.Color.Transparent;
             this.label58.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label58.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label58.Location = new System.Drawing.Point(274, 236);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(110, 16);
@@ -3336,7 +3336,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label17.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label17.Location = new System.Drawing.Point(174, 241);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(33, 16);
@@ -3350,7 +3350,7 @@
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.Transparent;
             this.label33.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label33.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label33.Location = new System.Drawing.Point(442, 241);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(41, 16);
@@ -3362,7 +3362,7 @@
             // 
             this.btnPrev_MotorDirection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_MotorDirection.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_MotorDirection.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_MotorDirection.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_MotorDirection.FlatAppearance.BorderSize = 0;
             this.btnPrev_MotorDirection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_MotorDirection.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3379,7 +3379,7 @@
             // 
             this.btnOkNext_MotorDirection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_MotorDirection.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_MotorDirection.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_MotorDirection.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_MotorDirection.FlatAppearance.BorderSize = 0;
             this.btnOkNext_MotorDirection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_MotorDirection.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3433,7 +3433,7 @@
             this.chkInvertSteer.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkInvertSteer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkInvertSteer.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkInvertSteer.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkInvertSteer.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkInvertSteer.Image = global::AgOpenGPS.Properties.Resources.ConSt_InvertDirection;
             this.chkInvertSteer.Location = new System.Drawing.Point(274, 155);
             this.chkInvertSteer.Name = "chkInvertSteer";
@@ -3517,7 +3517,7 @@
             // btnSkipCPD_Setup
             // 
             this.btnSkipCPD_Setup.BackColor = System.Drawing.Color.Transparent;
-            this.btnSkipCPD_Setup.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnSkipCPD_Setup.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnSkipCPD_Setup.FlatAppearance.BorderSize = 0;
             this.btnSkipCPD_Setup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSkipCPD_Setup.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3534,7 +3534,7 @@
             // 
             this.btnOKNext_CPDSetup.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOKNext_CPDSetup.BackColor = System.Drawing.Color.Transparent;
-            this.btnOKNext_CPDSetup.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOKNext_CPDSetup.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOKNext_CPDSetup.FlatAppearance.BorderSize = 0;
             this.btnOKNext_CPDSetup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOKNext_CPDSetup.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3576,7 +3576,7 @@
             this.label109.AutoSize = true;
             this.label109.BackColor = System.Drawing.Color.Transparent;
             this.label109.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label109.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label109.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label109.Location = new System.Drawing.Point(300, 125);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(124, 25);
@@ -3590,7 +3590,7 @@
             this.lblRightStartAngle.AutoSize = true;
             this.lblRightStartAngle.BackColor = System.Drawing.Color.Transparent;
             this.lblRightStartAngle.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRightStartAngle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRightStartAngle.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblRightStartAngle.Location = new System.Drawing.Point(419, 125);
             this.lblRightStartAngle.Name = "lblRightStartAngle";
             this.lblRightStartAngle.Size = new System.Drawing.Size(45, 25);
@@ -3602,7 +3602,7 @@
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3621,7 +3621,7 @@
             this.lblCPDError.AutoSize = true;
             this.lblCPDError.BackColor = System.Drawing.Color.Transparent;
             this.lblCPDError.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCPDError.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCPDError.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblCPDError.Location = new System.Drawing.Point(155, 235);
             this.lblCPDError.Name = "lblCPDError";
             this.lblCPDError.Size = new System.Drawing.Size(33, 25);
@@ -3644,7 +3644,7 @@
             // 
             this.btnOkNext_CountsPerDeg.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_CountsPerDeg.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_CountsPerDeg.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_CountsPerDeg.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_CountsPerDeg.FlatAppearance.BorderSize = 0;
             this.btnOkNext_CountsPerDeg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_CountsPerDeg.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3662,7 +3662,7 @@
             this.btnStartSA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnStartSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnStartSA.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStartSA.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnStartSA.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnStartSA.Image = global::AgOpenGPS.Properties.Resources.BoundaryRecord;
             this.btnStartSA.Location = new System.Drawing.Point(188, 129);
             this.btnStartSA.Name = "btnStartSA";
@@ -3701,7 +3701,7 @@
             this.btnAckReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAckReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAckReset.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAckReset.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnAckReset.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAckReset.Location = new System.Drawing.Point(113, 130);
             this.btnAckReset.Name = "btnAckReset";
             this.btnAckReset.Size = new System.Drawing.Size(73, 78);
@@ -3716,7 +3716,7 @@
             this.label101.AutoSize = true;
             this.label101.BackColor = System.Drawing.Color.Transparent;
             this.label101.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label101.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label101.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label101.Location = new System.Drawing.Point(337, 125);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(124, 25);
@@ -3730,7 +3730,7 @@
             this.lblStartAngleLeft.AutoSize = true;
             this.lblStartAngleLeft.BackColor = System.Drawing.Color.Transparent;
             this.lblStartAngleLeft.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStartAngleLeft.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblStartAngleLeft.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblStartAngleLeft.Location = new System.Drawing.Point(456, 125);
             this.lblStartAngleLeft.Name = "lblStartAngleLeft";
             this.lblStartAngleLeft.Size = new System.Drawing.Size(45, 25);
@@ -3780,7 +3780,7 @@
             // 
             this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button16.BackColor = System.Drawing.Color.Transparent;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3799,7 +3799,7 @@
             this.lblAckermannError.AutoSize = true;
             this.lblAckermannError.BackColor = System.Drawing.Color.Transparent;
             this.lblAckermannError.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAckermannError.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAckermannError.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblAckermannError.Location = new System.Drawing.Point(18, 219);
             this.lblAckermannError.Name = "lblAckermannError";
             this.lblAckermannError.Size = new System.Drawing.Size(33, 25);
@@ -3824,7 +3824,7 @@
             this.label106.AutoSize = true;
             this.label106.BackColor = System.Drawing.Color.Transparent;
             this.label106.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label106.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label106.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label106.Location = new System.Drawing.Point(333, 155);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(128, 25);
@@ -3851,7 +3851,7 @@
             this.lblDiameterLeft.AutoSize = true;
             this.lblDiameterLeft.BackColor = System.Drawing.Color.Transparent;
             this.lblDiameterLeft.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiameterLeft.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblDiameterLeft.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblDiameterLeft.Location = new System.Drawing.Point(456, 185);
             this.lblDiameterLeft.Name = "lblDiameterLeft";
             this.lblDiameterLeft.Size = new System.Drawing.Size(71, 25);
@@ -3865,7 +3865,7 @@
             this.lblCalcSteerAngleLeft.AutoSize = true;
             this.lblCalcSteerAngleLeft.BackColor = System.Drawing.Color.Transparent;
             this.lblCalcSteerAngleLeft.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCalcSteerAngleLeft.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCalcSteerAngleLeft.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblCalcSteerAngleLeft.Location = new System.Drawing.Point(456, 155);
             this.lblCalcSteerAngleLeft.Name = "lblCalcSteerAngleLeft";
             this.lblCalcSteerAngleLeft.Size = new System.Drawing.Size(45, 25);
@@ -3879,7 +3879,7 @@
             this.label111.AutoSize = true;
             this.label111.BackColor = System.Drawing.Color.Transparent;
             this.label111.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label111.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label111.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label111.Location = new System.Drawing.Point(357, 185);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(104, 25);
@@ -3891,7 +3891,7 @@
             // 
             this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button17.BackColor = System.Drawing.Color.Transparent;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -3909,7 +3909,7 @@
             this.btnStartSA_Left.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnStartSA_Left.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnStartSA_Left.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStartSA_Left.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnStartSA_Left.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnStartSA_Left.Image = global::AgOpenGPS.Properties.Resources.BoundaryRecord;
             this.btnStartSA_Left.Location = new System.Drawing.Point(238, 130);
             this.btnStartSA_Left.Name = "btnStartSA_Left";
@@ -3941,7 +3941,7 @@
             this.label113.AutoSize = true;
             this.label113.BackColor = System.Drawing.Color.Transparent;
             this.label113.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label113.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label113.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label113.Location = new System.Drawing.Point(503, 166);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(29, 16);
@@ -3984,7 +3984,7 @@
             // 
             this.btnPrev_MaxSteerAngle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_MaxSteerAngle.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_MaxSteerAngle.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_MaxSteerAngle.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_MaxSteerAngle.FlatAppearance.BorderSize = 0;
             this.btnPrev_MaxSteerAngle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_MaxSteerAngle.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4068,7 +4068,7 @@
             // 
             this.btnPrev_CancelGuidance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_CancelGuidance.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_CancelGuidance.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_CancelGuidance.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_CancelGuidance.FlatAppearance.BorderSize = 0;
             this.btnPrev_CancelGuidance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_CancelGuidance.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4085,7 +4085,7 @@
             // 
             this.btnOkNextCancelGuidance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNextCancelGuidance.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNextCancelGuidance.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNextCancelGuidance.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNextCancelGuidance.FlatAppearance.BorderSize = 0;
             this.btnOkNextCancelGuidance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNextCancelGuidance.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4118,7 +4118,7 @@
             this.cboxPressureSensor.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxPressureSensor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxPressureSensor.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxPressureSensor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxPressureSensor.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxPressureSensor.Image = global::AgOpenGPS.Properties.Resources.ConSt_TurnSensorPressure;
             this.cboxPressureSensor.Location = new System.Drawing.Point(427, 110);
             this.cboxPressureSensor.Name = "cboxPressureSensor";
@@ -4138,7 +4138,7 @@
             this.cboxEncoder.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxEncoder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxEncoder.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxEncoder.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxEncoder.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxEncoder.Image = global::AgOpenGPS.Properties.Resources.ConSt_TurnSensor;
             this.cboxEncoder.Location = new System.Drawing.Point(129, 109);
             this.cboxEncoder.Name = "cboxEncoder";
@@ -4158,7 +4158,7 @@
             this.cboxCurrentSensor.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxCurrentSensor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxCurrentSensor.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxCurrentSensor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxCurrentSensor.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxCurrentSensor.Image = global::AgOpenGPS.Properties.Resources.ConSt_TurnSensorCurrent;
             this.cboxCurrentSensor.Location = new System.Drawing.Point(278, 109);
             this.cboxCurrentSensor.Name = "cboxCurrentSensor";
@@ -4185,7 +4185,7 @@
             // 
             this.btnPrev_Panic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_Panic.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_Panic.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_Panic.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_Panic.FlatAppearance.BorderSize = 0;
             this.btnPrev_Panic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_Panic.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4215,7 +4215,7 @@
             // 
             this.btnOkNext_PanicStop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnOkNext_PanicStop.BackColor = System.Drawing.Color.Transparent;
-            this.btnOkNext_PanicStop.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnOkNext_PanicStop.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnOkNext_PanicStop.FlatAppearance.BorderSize = 0;
             this.btnOkNext_PanicStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkNext_PanicStop.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4259,7 +4259,7 @@
             this.label72.AutoSize = true;
             this.label72.BackColor = System.Drawing.Color.Transparent;
             this.label72.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label72.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label72.Location = new System.Drawing.Point(516, 106);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(36, 16);
@@ -4273,7 +4273,7 @@
             this.label79.AutoSize = true;
             this.label79.BackColor = System.Drawing.Color.Transparent;
             this.label79.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label79.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label79.Location = new System.Drawing.Point(576, 212);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(41, 16);
@@ -4287,7 +4287,7 @@
             this.label78.AutoSize = true;
             this.label78.BackColor = System.Drawing.Color.Transparent;
             this.label78.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label78.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label78.Location = new System.Drawing.Point(457, 212);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(33, 16);
@@ -4384,7 +4384,7 @@
             // 
             this.btnPrev_Gain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_Gain.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_Gain.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_Gain.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_Gain.FlatAppearance.BorderSize = 0;
             this.btnPrev_Gain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_Gain.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4448,7 +4448,7 @@
             this.label88.AutoSize = true;
             this.label88.BackColor = System.Drawing.Color.Transparent;
             this.label88.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label88.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label88.Location = new System.Drawing.Point(586, 228);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(41, 16);
@@ -4462,7 +4462,7 @@
             this.label83.AutoSize = true;
             this.label83.BackColor = System.Drawing.Color.Transparent;
             this.label83.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label83.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label83.Location = new System.Drawing.Point(515, 60);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(77, 16);
@@ -4476,7 +4476,7 @@
             this.label84.AutoSize = true;
             this.label84.BackColor = System.Drawing.Color.Transparent;
             this.label84.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label84.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label84.Location = new System.Drawing.Point(492, 228);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(33, 16);
@@ -4488,7 +4488,7 @@
             // 
             this.btnLeftPGain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLeftPGain.BackColor = System.Drawing.Color.Transparent;
-            this.btnLeftPGain.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnLeftPGain.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnLeftPGain.FlatAppearance.BorderSize = 0;
             this.btnLeftPGain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLeftPGain.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4545,7 +4545,7 @@
             // 
             this.btnRightPGain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnRightPGain.BackColor = System.Drawing.Color.Transparent;
-            this.btnRightPGain.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnRightPGain.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnRightPGain.FlatAppearance.BorderSize = 0;
             this.btnRightPGain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRightPGain.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4575,7 +4575,7 @@
             // 
             this.btnPrev_PGain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_PGain.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_PGain.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_PGain.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_PGain.FlatAppearance.BorderSize = 0;
             this.btnPrev_PGain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_PGain.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4635,7 +4635,7 @@
             // btnRestartWizard
             // 
             this.btnRestartWizard.BackColor = System.Drawing.Color.LightBlue;
-            this.btnRestartWizard.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnRestartWizard.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnRestartWizard.FlatAppearance.BorderSize = 0;
             this.btnRestartWizard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestartWizard.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4665,7 +4665,7 @@
             // 
             this.btnPrev_End.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrev_End.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrev_End.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPrev_End.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnPrev_End.FlatAppearance.BorderSize = 0;
             this.btnPrev_End.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrev_End.Font = new System.Drawing.Font("Tahoma", 14.25F);
@@ -4700,7 +4700,7 @@
             // 
             this.btnStopWizard.BackColor = System.Drawing.Color.LightCoral;
             this.btnStopWizard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnStopWizard.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnStopWizard.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnStopWizard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStopWizard.Font = new System.Drawing.Font("Tahoma", 14.25F);
             this.btnStopWizard.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4764,7 +4764,7 @@
             this.label66.AutoSize = true;
             this.label66.BackColor = System.Drawing.Color.Transparent;
             this.label66.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label66.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label66.Location = new System.Drawing.Point(675, 124);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(123, 23);
@@ -4778,7 +4778,7 @@
             this.label65.AutoSize = true;
             this.label65.BackColor = System.Drawing.Color.Transparent;
             this.label65.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label65.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label65.Location = new System.Drawing.Point(675, 176);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(104, 23);
@@ -4811,7 +4811,7 @@
             this.label67.AutoSize = true;
             this.label67.BackColor = System.Drawing.Color.Transparent;
             this.label67.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label67.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label67.Location = new System.Drawing.Point(675, 72);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(104, 23);

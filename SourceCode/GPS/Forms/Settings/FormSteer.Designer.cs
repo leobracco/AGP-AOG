@@ -325,7 +325,7 @@
             this.lblPWMDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPWMDisplay.BackColor = System.Drawing.Color.Transparent;
             this.lblPWMDisplay.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPWMDisplay.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPWMDisplay.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblPWMDisplay.Location = new System.Drawing.Point(78, 76);
             this.lblPWMDisplay.Name = "lblPWMDisplay";
             this.lblPWMDisplay.Size = new System.Drawing.Size(64, 23);
@@ -338,7 +338,7 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label9.Location = new System.Drawing.Point(17, 76);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(64, 23);
@@ -397,7 +397,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label14.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label14.Location = new System.Drawing.Point(289, 77);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(45, 16);
@@ -411,7 +411,7 @@
             this.labelSteerAngle.AutoSize = true;
             this.labelSteerAngle.BackColor = System.Drawing.Color.Transparent;
             this.labelSteerAngle.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSteerAngle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelSteerAngle.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelSteerAngle.Location = new System.Drawing.Point(113, 113);
             this.labelSteerAngle.Name = "labelSteerAngle";
             this.labelSteerAngle.Size = new System.Drawing.Size(114, 23);
@@ -425,7 +425,7 @@
             this.labelDiameter.AutoSize = true;
             this.labelDiameter.BackColor = System.Drawing.Color.Transparent;
             this.labelDiameter.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDiameter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelDiameter.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelDiameter.Location = new System.Drawing.Point(133, 148);
             this.labelDiameter.Name = "labelDiameter";
             this.labelDiameter.Size = new System.Drawing.Size(93, 23);
@@ -439,7 +439,7 @@
             this.lblCalcSteerAngleInner.AutoSize = true;
             this.lblCalcSteerAngleInner.BackColor = System.Drawing.Color.Transparent;
             this.lblCalcSteerAngleInner.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCalcSteerAngleInner.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCalcSteerAngleInner.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblCalcSteerAngleInner.Location = new System.Drawing.Point(230, 113);
             this.lblCalcSteerAngleInner.Name = "lblCalcSteerAngleInner";
             this.lblCalcSteerAngleInner.Size = new System.Drawing.Size(40, 23);
@@ -453,7 +453,7 @@
             this.lblDiameter.AutoSize = true;
             this.lblDiameter.BackColor = System.Drawing.Color.Transparent;
             this.lblDiameter.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiameter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblDiameter.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.lblDiameter.Location = new System.Drawing.Point(227, 148);
             this.lblDiameter.Name = "lblDiameter";
             this.lblDiameter.Size = new System.Drawing.Size(64, 23);
@@ -679,7 +679,7 @@
             // label20
             // 
             this.label20.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label20.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.label20.Location = new System.Drawing.Point(579, 228);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(204, 30);
@@ -690,7 +690,7 @@
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label18.ForeColor =System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ButtonFace);
             this.label18.Location = new System.Drawing.Point(561, 13);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(204, 30);
@@ -1328,7 +1328,7 @@
             this.btnZeroWAS.FlatAppearance.BorderSize = 0;
             this.btnZeroWAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZeroWAS.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZeroWAS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnZeroWAS.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnZeroWAS.Image = global::AgOpenGPS.Properties.Resources.SteerZero;
             this.btnZeroWAS.Location = new System.Drawing.Point(134, 19);
             this.btnZeroWAS.Name = "btnZeroWAS";
@@ -1957,7 +1957,7 @@
             // 
             this.btnExpand.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnExpand.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnExpand.FlatAppearance.BorderColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnExpand.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.AppWorkspace);
             this.btnExpand.FlatAppearance.BorderSize = 0;
             this.btnExpand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExpand.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1995,7 +1995,7 @@
             this.btnStartSA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnStartSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnStartSA.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStartSA.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnStartSA.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnStartSA.Image = global::AgOpenGPS.Properties.Resources.BoundaryRecord;
             this.btnStartSA.Location = new System.Drawing.Point(15, 104);
             this.btnStartSA.Name = "btnStartSA";
@@ -2008,7 +2008,7 @@
             // 
             this.btnFreeDriveZero.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnFreeDriveZero.BackColor = System.Drawing.Color.White;
-            this.btnFreeDriveZero.FlatAppearance.BorderColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnFreeDriveZero.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.AppWorkspace);
             this.btnFreeDriveZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFreeDriveZero.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFreeDriveZero.ForeColor = System.Drawing.Color.White;
@@ -2025,7 +2025,7 @@
             this.btnSteerAngleUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSteerAngleUp.BackColor = System.Drawing.Color.White;
             this.btnSteerAngleUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSteerAngleUp.FlatAppearance.BorderColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnSteerAngleUp.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.AppWorkspace);
             this.btnSteerAngleUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSteerAngleUp.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSteerAngleUp.Image = global::AgOpenGPS.Properties.Resources.ArrowRight;
@@ -2041,10 +2041,10 @@
             // 
             this.btnFreeDrive.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnFreeDrive.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnFreeDrive.FlatAppearance.BorderColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnFreeDrive.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.AppWorkspace);
             this.btnFreeDrive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFreeDrive.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFreeDrive.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnFreeDrive.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnFreeDrive.Image = global::AgOpenGPS.Properties.Resources.SteerDriveOff;
             this.btnFreeDrive.Location = new System.Drawing.Point(4, 17);
             this.btnFreeDrive.Name = "btnFreeDrive";
@@ -2058,7 +2058,7 @@
             this.btnSteerAngleDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSteerAngleDown.BackColor = System.Drawing.Color.White;
             this.btnSteerAngleDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSteerAngleDown.FlatAppearance.BorderColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnSteerAngleDown.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.AppWorkspace);
             this.btnSteerAngleDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSteerAngleDown.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSteerAngleDown.Image = global::AgOpenGPS.Properties.Resources.ArrowLeft;
@@ -2198,7 +2198,7 @@
             this.cboxCurrentSensor.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxCurrentSensor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxCurrentSensor.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxCurrentSensor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxCurrentSensor.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxCurrentSensor.Image = global::AgOpenGPS.Properties.Resources.ConSt_TurnSensorCurrent;
             this.cboxCurrentSensor.Location = new System.Drawing.Point(367, 63);
             this.cboxCurrentSensor.Name = "cboxCurrentSensor";
@@ -2217,7 +2217,7 @@
             this.cboxEncoder.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxEncoder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxEncoder.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxEncoder.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxEncoder.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxEncoder.Image = global::AgOpenGPS.Properties.Resources.ConSt_TurnSensor;
             this.cboxEncoder.Location = new System.Drawing.Point(21, 63);
             this.cboxEncoder.Name = "cboxEncoder";
@@ -2236,7 +2236,7 @@
             this.cboxPressureSensor.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxPressureSensor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxPressureSensor.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxPressureSensor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxPressureSensor.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxPressureSensor.Image = global::AgOpenGPS.Properties.Resources.ConSt_TurnSensorPressure;
             this.cboxPressureSensor.Location = new System.Drawing.Point(188, 63);
             this.cboxPressureSensor.Name = "cboxPressureSensor";
@@ -2284,7 +2284,7 @@
             this.chkInvertWAS.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkInvertWAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkInvertWAS.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkInvertWAS.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkInvertWAS.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkInvertWAS.Image = global::AgOpenGPS.Properties.Resources.ConSt_InvertWAS;
             this.chkInvertWAS.Location = new System.Drawing.Point(165, 57);
             this.chkInvertWAS.Name = "chkInvertWAS";
@@ -2303,7 +2303,7 @@
             this.chkInvertSteer.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkInvertSteer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkInvertSteer.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkInvertSteer.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkInvertSteer.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkInvertSteer.Image = global::AgOpenGPS.Properties.Resources.ConSt_InvertDirection;
             this.chkInvertSteer.Location = new System.Drawing.Point(165, 192);
             this.chkInvertSteer.Name = "chkInvertSteer";
@@ -2322,7 +2322,7 @@
             this.chkSteerInvertRelays.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.chkSteerInvertRelays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkSteerInvertRelays.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkSteerInvertRelays.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkSteerInvertRelays.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkSteerInvertRelays.Image = global::AgOpenGPS.Properties.Resources.ConSt_InvertRelay;
             this.chkSteerInvertRelays.Location = new System.Drawing.Point(165, 324);
             this.chkSteerInvertRelays.Name = "chkSteerInvertRelays";
@@ -2341,7 +2341,7 @@
             this.cboxDanfoss.FlatAppearance.CheckedBackColor = System.Drawing.Color.MediumAquamarine;
             this.cboxDanfoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxDanfoss.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxDanfoss.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxDanfoss.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxDanfoss.Image = global::AgOpenGPS.Properties.Resources.ConSt_Danfoss;
             this.cboxDanfoss.Location = new System.Drawing.Point(9, 57);
             this.cboxDanfoss.Name = "cboxDanfoss";
@@ -2379,7 +2379,7 @@
             // labelSteerInReverse
             // 
             this.labelSteerInReverse.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSteerInReverse.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelSteerInReverse.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelSteerInReverse.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelSteerInReverse.Location = new System.Drawing.Point(287, 294);
             this.labelSteerInReverse.Name = "labelSteerInReverse";
@@ -2459,7 +2459,7 @@
             this.cboxSteerInReverse.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightGreen;
             this.cboxSteerInReverse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboxSteerInReverse.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxSteerInReverse.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cboxSteerInReverse.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.cboxSteerInReverse.Image = global::AgOpenGPS.Properties.Resources.ConV_RevSteer;
             this.cboxSteerInReverse.Location = new System.Drawing.Point(323, 318);
             this.cboxSteerInReverse.Name = "cboxSteerInReverse";
@@ -2516,7 +2516,7 @@
             // 
             this.labelMinSpeed.AutoSize = true;
             this.labelMinSpeed.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMinSpeed.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelMinSpeed.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelMinSpeed.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelMinSpeed.Location = new System.Drawing.Point(121, 249);
             this.labelMinSpeed.Name = "labelMinSpeed";
@@ -2529,7 +2529,7 @@
             // 
             this.label166.AutoSize = true;
             this.label166.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label166.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label166.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label166.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label166.Location = new System.Drawing.Point(149, 409);
             this.label166.Name = "label166";
@@ -2542,7 +2542,7 @@
             // 
             this.labelMaxSpeed.AutoSize = true;
             this.labelMaxSpeed.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMaxSpeed.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelMaxSpeed.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelMaxSpeed.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelMaxSpeed.Location = new System.Drawing.Point(308, 251);
             this.labelMaxSpeed.Name = "labelMaxSpeed";
@@ -2555,7 +2555,7 @@
             // 
             this.label163.AutoSize = true;
             this.label163.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label163.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label163.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label163.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label163.Location = new System.Drawing.Point(339, 409);
             this.label163.Name = "label163";
@@ -2568,7 +2568,7 @@
             // 
             this.label160.AutoSize = true;
             this.label160.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label160.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label160.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label160.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label160.Location = new System.Drawing.Point(244, 195);
             this.label160.Name = "label160";
@@ -2581,7 +2581,7 @@
             // 
             this.labelManualTurns.AutoSize = true;
             this.labelManualTurns.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelManualTurns.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelManualTurns.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelManualTurns.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelManualTurns.Location = new System.Drawing.Point(203, 38);
             this.labelManualTurns.Name = "labelManualTurns";
@@ -2656,7 +2656,7 @@
             // 
             this.labelLineWidth.AutoSize = true;
             this.labelLineWidth.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLineWidth.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelLineWidth.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelLineWidth.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelLineWidth.Location = new System.Drawing.Point(28, 22);
             this.labelLineWidth.Name = "labelLineWidth";
@@ -2669,7 +2669,7 @@
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label44.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label44.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label44.Location = new System.Drawing.Point(171, 95);
             this.label44.Name = "label44";
@@ -2695,7 +2695,7 @@
             // 
             this.labelNudgeDistance.AutoSize = true;
             this.labelNudgeDistance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNudgeDistance.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelNudgeDistance.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelNudgeDistance.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelNudgeDistance.Location = new System.Drawing.Point(276, 22);
             this.labelNudgeDistance.Name = "labelNudgeDistance";
@@ -2714,7 +2714,7 @@
             this.chkDisplayLightbar.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightGreen;
             this.chkDisplayLightbar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkDisplayLightbar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkDisplayLightbar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkDisplayLightbar.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.chkDisplayLightbar.Image = global::AgOpenGPS.Properties.Resources.SwitchOn;
             this.chkDisplayLightbar.Location = new System.Drawing.Point(55, 355);
             this.chkDisplayLightbar.Name = "chkDisplayLightbar";
@@ -2729,7 +2729,7 @@
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label43.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label43.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label43.Location = new System.Drawing.Point(437, 95);
             this.label43.Name = "label43";
@@ -2765,7 +2765,7 @@
             this.rbtnSteerBar.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightGreen;
             this.rbtnSteerBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbtnSteerBar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnSteerBar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rbtnSteerBar.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.rbtnSteerBar.Image = global::AgOpenGPS.Properties.Resources.ConD_SteerBarBar;
             this.rbtnSteerBar.Location = new System.Drawing.Point(150, 40);
             this.rbtnSteerBar.Name = "rbtnSteerBar";
@@ -2798,7 +2798,7 @@
             this.rbtnLightBar.FlatAppearance.CheckedBackColor = System.Drawing.Color.LightGreen;
             this.rbtnLightBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbtnLightBar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnLightBar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rbtnLightBar.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.rbtnLightBar.Image = global::AgOpenGPS.Properties.Resources.ConD_LightBar;
             this.rbtnLightBar.Location = new System.Drawing.Point(11, 40);
             this.rbtnLightBar.Name = "rbtnLightBar";
@@ -2825,7 +2825,7 @@
             // 
             this.labelCmPix.AutoSize = true;
             this.labelCmPix.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCmPix.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelCmPix.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelCmPix.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelCmPix.Location = new System.Drawing.Point(289, 167);
             this.labelCmPix.Name = "labelCmPix";
@@ -2838,7 +2838,7 @@
             // 
             this.label107.AutoSize = true;
             this.label107.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label107.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label107.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label107.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label107.Location = new System.Drawing.Point(160, 245);
             this.label107.Name = "label107";
@@ -2851,7 +2851,7 @@
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label46.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.label46.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label46.Location = new System.Drawing.Point(436, 242);
             this.label46.Name = "label46";
@@ -2873,7 +2873,7 @@
             // labelNextGuidanceLine
             // 
             this.labelNextGuidanceLine.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNextGuidanceLine.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelNextGuidanceLine.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.labelNextGuidanceLine.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelNextGuidanceLine.Location = new System.Drawing.Point(10, 164);
             this.labelNextGuidanceLine.Name = "labelNextGuidanceLine";

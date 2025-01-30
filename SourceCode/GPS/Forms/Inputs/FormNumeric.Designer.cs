@@ -70,7 +70,7 @@
             // 
             // keypad1
             // 
-            this.keypad1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.keypad1.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaption);
             this.keypad1.Location = new System.Drawing.Point(0, 112);
             this.keypad1.Name = "keypad1";
             this.keypad1.Size = new System.Drawing.Size(454, 429);
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaption);
             this.ClientSize = new System.Drawing.Size(460, 545);
             this.ControlBox = false;
             this.Controls.Add(this.btnDistanceUp);

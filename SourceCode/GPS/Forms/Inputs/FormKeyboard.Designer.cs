@@ -47,7 +47,7 @@
             this.keyboard1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.keyboard1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.keyboard1.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.GradientActiveCaption);
             this.keyboard1.Location = new System.Drawing.Point(5, 55);
             this.keyboard1.Margin = new System.Windows.Forms.Padding(4);
             this.keyboard1.Name = "keyboard1";
@@ -93,7 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ActiveCaption);
             this.ClientSize = new System.Drawing.Size(942, 454);
             this.ControlBox = false;
             this.Controls.Add(this.btnCharRight);

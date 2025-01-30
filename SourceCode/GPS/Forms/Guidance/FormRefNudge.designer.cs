@@ -45,7 +45,7 @@
             // 
             this.btnAdjLeft.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdjLeft.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdjLeft.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdjLeft.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAdjLeft.FlatAppearance.BorderSize = 0;
             this.btnAdjLeft.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAdjLeft.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -65,7 +65,7 @@
             // 
             this.btnAdjRight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdjRight.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdjRight.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdjRight.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnAdjRight.FlatAppearance.BorderSize = 0;
             this.btnAdjRight.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnAdjRight.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -108,7 +108,7 @@
             // 
             this.btnHalfToolLeft.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHalfToolLeft.BackColor = System.Drawing.Color.Transparent;
-            this.btnHalfToolLeft.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnHalfToolLeft.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnHalfToolLeft.FlatAppearance.BorderSize = 0;
             this.btnHalfToolLeft.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnHalfToolLeft.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -151,7 +151,7 @@
             // 
             this.btnHalfToolRight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHalfToolRight.BackColor = System.Drawing.Color.Transparent;
-            this.btnHalfToolRight.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnHalfToolRight.FlatAppearance.BorderColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.ControlText);
             this.btnHalfToolRight.FlatAppearance.BorderSize = 0;
             this.btnHalfToolRight.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnHalfToolRight.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -227,7 +227,7 @@
             this.Controls.Add(this.btnCancelMain);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ForeColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.AppWorkspace);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
