@@ -64,7 +64,7 @@
             this.textBoxRcv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxRcv.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.textBoxRcv.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.textBoxRcv.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRcv.Location = new System.Drawing.Point(6, 31);
             this.textBoxRcv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

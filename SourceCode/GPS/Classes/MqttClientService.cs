@@ -3,6 +3,7 @@ using MQTTnet.Client;
 using MQTTnet.Protocol;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using AgLibrary.Logging;
@@ -17,7 +18,8 @@ namespace AGOpenGPS.GPS
         private int port = 1883;
         private string clientId = $"AGO_{Guid.NewGuid()}"; // ID único por instancia
 
-        public event Action<string, string> OnMessageReceived;
+        // Diccionario para almacenar callbacks por tópico
+        private Dictionary<string, Action<string, string>> _topicCallbacks = new Dictionary<string, Action<string, string>>();
 
         public MqttClientService()
         {
@@ -63,7 +65,8 @@ namespace AGOpenGPS.GPS
             }
         }
 
-        public async Task SubscribeAsync<T>(string topic, Action<string, T> onReceivedCallback = null)
+        // Suscribirse a un tópico con un callback específico
+        public async Task SubscribeAsync(string topic, Action<string, string> onReceivedCallback)
         {
             if (!mqttClient.IsConnected) await AutoConnectAsync();
 
@@ -72,17 +75,8 @@ namespace AGOpenGPS.GPS
                 .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.AtLeastOnce)
                 .Build());
 
-            if (onReceivedCallback != null)
-            {
-                OnMessageReceived += (receivedTopic, payload) =>
-                {
-                    if (receivedTopic == topic)
-                    {
-                        var deserialized = JsonConvert.DeserializeObject<T>(payload);
-                        onReceivedCallback?.Invoke(topic, deserialized);
-                    }
-                };
-            }
+            // Registrar el callback para este tópico
+            _topicCallbacks[topic] = onReceivedCallback;
 
             Log.EventWriter($"Suscrito a: {topic}");
         }
@@ -92,7 +86,21 @@ namespace AGOpenGPS.GPS
             try
             {
                 var message = Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
-                OnMessageReceived?.Invoke(e.ApplicationMessage.Topic, message);
+                var topic = e.ApplicationMessage.Topic;
+
+                Log.EventWriter($"Mensaje recibido - Tema: {topic}, Contenido: {message}");
+
+                // Buscar el callback que coincida con el prefijo del tópico
+                foreach (var kvp in _topicCallbacks)
+                {
+                    if (topic.StartsWith(kvp.Key.Replace("#", "")))
+                    {
+                        kvp.Value(topic, message); // Ejecutar el callback
+                        return;
+                    }
+                }
+
+                Log.EventWriter($"No se encontró un callback para el tópico: {topic}");
             }
             catch (Exception ex)
             {

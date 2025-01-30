@@ -3,7 +3,8 @@ using System.Drawing;
 using System.IO;
 using System.IO.Ports;
 using System.Windows.Forms;
-using System.Windows.Threading;
+using System.Threading; // Para clases básicas de threading
+using System.Threading.Tasks; // Para async/await
 using AgLibrary.Logging;
 
 namespace AgIO
@@ -18,7 +19,6 @@ namespace AgIO
 
         public string recvSentence = "GPS";
         public SerialPort sp = new SerialPort(portName, baudRate, Parity.None, 8, StopBits.One);
-        private readonly Dispatcher _dispatcher;
 
         private bool logOn = false;
 
@@ -26,7 +26,6 @@ namespace AgIO
         {
             //get copy of the calling main form
             mf = callingForm as FormLoop;
-            _dispatcher = Dispatcher.CurrentDispatcher;
             InitializeComponent();
         }
 
@@ -101,11 +100,14 @@ namespace AgIO
                 try
                 {
                     string sentence = sp.ReadExisting();
-                    _dispatcher.BeginInvoke(DispatcherPriority.Background, (MethodInvoker)(() => ReceivePort(sentence)));
+                    if (this.IsHandleCreated) // Verifica si el formulario tiene un handle válido
+                    {
+                        this.BeginInvoke((MethodInvoker)(() => ReceivePort(sentence)));
+                    }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
+                    Log.EventWriter("Error en sp_DataReceived: " + ex.Message);
                 }
             }
         }

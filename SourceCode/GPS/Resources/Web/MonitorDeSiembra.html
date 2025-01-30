@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Monitor de Siembra Avanzado</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%; /* Asegura que el HTML ocupe todo el alto disponible */
+        width: 100%; /* Asegura que el HTML ocupe todo el ancho disponible */
+      }
+      .container {
+        width: 100%; /* Esto asegura que el contenido ocupe todo el ancho */
+        height: 100%; /* Esto asegura que el contenido ocupe todo el alto */
+        display: flex;
+        justify-content: center; /* Centra el contenido si es necesario */
+        align-items: center;
+      }
+      .tube-container {
+        display: flex;
+        justify-content: center;
+        gap: 0.5px;
+        margin: 50px 0;
+        padding: 0px;
+        background: #f8f9fa;
+        border-radius: 15px;
+        width: 85%;
+      }
+
+      .seed-tube {
+        width: 20px;
+        height: 100px;
+        border-radius: 15px 15px 5px 5px;
+        cursor: pointer;
+        position: relative;
+        background: #e9ecef;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .tube-neck {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 20px;
+        background: #dee2e6;
+        border-radius: 15px 15px 0 0;
+      }
+
+      .liquid-fill {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        transition: all 1s ease;
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.1) 0%,
+          transparent 30%
+        );
+      }
+
+      .fill-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+      }
+
+      /* Colores de estado */
+      .verde {
+        background-color: #28a745;
+      }
+      .negro {
+        background-color: #343a40;
+      }
+      .azul {
+        background-color: #007bff;
+      }
+      .amarillo {
+        background-color: #ffc107;
+      }
+      .rojo {
+        background-color: #dc3545;
+      }
+
+      .status-info {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        transform: rotate(-90deg);
+        font-size: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="tube-container">
+        <!-- Surcos se generarán dinámicamente -->
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="statusModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Surco #<span id="tubeNumber"></span></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Estado: <span id="tubeStatus" class="badge"></span></p>
+            <p>Dosis actual: <span id="tubeDosis">100</span>%</p>
+            <div class="progress mt-3" style="height: 25px">
+              <div
+                id="tubeProgress"
+                class="progress-bar"
+                role="progressbar"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        const estados = {
+          verde: { nombre: "Óptimo", color: "#28a745", dosis: 100 },
+          negro: { nombre: "No sembrado", color: "#343a40", dosis: 0 },
+          azul: { nombre: "Exceso", color: "#007bff", dosis: 150 },
+          amarillo: { nombre: "Deficit", color: "#ffc107", dosis: 60 },
+          rojo: { nombre: "Falla", color: "#dc3545", dosis: 0 },
+        };
+
+        function crearTubo(numero) {
+          const estadoKeys = Object.keys(estados);
+          const estado =
+            estadoKeys[Math.floor(Math.random() * estadoKeys.length)];
+          const dosis =
+            estado === "azul"
+              ? Math.random() * 100 + 100
+              : estado === "amarillo"
+              ? Math.random() * 40 + 60
+              : estados[estado].dosis;
+
+          const tubo = $("<div>")
+            .addClass("seed-tube")
+            .attr("data-tube", numero)
+            .attr("data-status", estado)
+            .attr("data-dosis", dosis.toFixed(1));
+
+          // Crear elementos internos
+          tubo.append($("<div>").addClass("tube-neck"));
+          const liquidFill = $("<div>").addClass("liquid-fill");
+          liquidFill.append($("<div>").addClass("fill-overlay"));
+          tubo.append(liquidFill);
+          tubo.append(
+            $("<div>")
+              .addClass("status-info")
+              .text(`${dosis.toFixed(0)}%`)
+          );
+
+          // Aplicar estilos dinámicos
+          const fillHeight =
+            estado === "azul"
+              ? ((dosis - 100) / 50) * 100 + "%" // 100-150% -> 0-100% height
+              : estado === "amarillo"
+              ? ((dosis - 60) / 40) * 100 + "%" // 60-100% -> 0-100% height
+              : "100%";
+
+          liquidFill.css("--fill-height", fillHeight);
+          tubo.addClass(estado);
+
+          return tubo;
+        }
+
+        function generarSurcos() {
+          $(".tube-container").empty();
+          for (let i = 1; i <= 24; i++) {
+            $(".tube-container").append(crearTubo(i));
+          }
+        }
+
+        $(document).on("click", ".seed-tube", function () {
+          const $tubo = $(this);
+          const estado = estados[$tubo.data("status")];
+
+          $("#tubeNumber").text($tubo.data("tube"));
+          $("#tubeStatus")
+            .text(estado.nombre)
+            .css("background-color", estado.color);
+          $("#tubeDosis").text($tubo.data("dosis"));
+          $("#tubeProgress")
+            .css("width", $tubo.data("dosis") + "%")
+            .css("background-color", estado.color)
+            .text($tubo.data("dosis") + "%");
+
+          new bootstrap.Modal(document.getElementById("statusModal")).show();
+        });
+
+        generarSurcos();
+      });
+    </script>
+  </body>
+</html>

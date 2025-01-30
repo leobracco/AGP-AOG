@@ -13,6 +13,9 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\Web\MonitorDeSiembra.html" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="HIC.System.Windows.Forms.DataVisualization" Version="1.0.1" />
@@ -31,6 +34,9 @@
   </Content>
   <Content Include="Config\sembradoras.json">
     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="Resources\Web\MonitorDeSiembra.html">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
   </Content>
 </ItemGroup>
   <ItemGroup>
@@ -310,8 +316,5 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Web\" />
   </ItemGroup>
 </Project>

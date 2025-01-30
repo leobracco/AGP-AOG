@@ -374,7 +374,7 @@
             // 
             this.tboxVTG.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxVTG.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxVTG.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxVTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxVTG.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxVTG.Location = new System.Drawing.Point(35, 139);
@@ -389,7 +389,7 @@
             // 
             this.tboxGGA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxGGA.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxGGA.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxGGA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxGGA.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxGGA.Location = new System.Drawing.Point(35, 108);
@@ -404,7 +404,7 @@
             // 
             this.tboxHDT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxHDT.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxHDT.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxHDT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxHDT.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxHDT.Location = new System.Drawing.Point(35, 232);
@@ -419,7 +419,7 @@
             // 
             this.tboxAVR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxAVR.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxAVR.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxAVR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxAVR.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxAVR.Location = new System.Drawing.Point(35, 263);
@@ -434,7 +434,7 @@
             // 
             this.tboxPAOGI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxPAOGI.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxPAOGI.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxPAOGI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxPAOGI.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxPAOGI.Location = new System.Drawing.Point(35, 201);
@@ -449,7 +449,7 @@
             // 
             this.tboxHPD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxHPD.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxHPD.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxHPD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxHPD.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxHPD.Location = new System.Drawing.Point(35, 294);
@@ -514,7 +514,7 @@
             // 
             this.tboxPANDA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxPANDA.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxPANDA.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxPANDA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxPANDA.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxPANDA.Location = new System.Drawing.Point(36, 170);
@@ -645,7 +645,7 @@
             // 
             this.tboxKSXT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tboxKSXT.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window)
+            this.tboxKSXT.BackColor = System.Drawing.Color.FromKnownColor(System.Drawing.KnownColor.Window);
             this.tboxKSXT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tboxKSXT.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tboxKSXT.Location = new System.Drawing.Point(35, 327);

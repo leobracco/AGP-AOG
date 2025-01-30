@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
+     <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <OutputPath>..\..\..\AgOpenGPS\</OutputPath>
     <ApplicationIcon>AgIO_ico.ico</ApplicationIcon>
@@ -15,6 +15,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MQTTnet" Version="4.3.7.1207" />
+    <PackageReference Include="System.IO.Ports" Version="9.0.1" />
     <PackageReference Include="System.Runtime" Version="4.3.1" />
   </ItemGroup>
   <ItemGroup>

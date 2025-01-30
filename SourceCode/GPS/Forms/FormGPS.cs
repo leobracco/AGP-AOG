@@ -276,14 +276,14 @@ namespace AgOpenGPS
                 await mqttService.AutoConnectAsync();
                 Log.EventWriter("MQTT inicializado correctamente");
 
-               
+
             }
             catch (Exception ex)
             {
                 Log.EventWriter($"Error MQTT: {ex.Message}");
             }
         }
-       
+
         public FormGPS()
         {
             //winform initialization
@@ -377,7 +377,7 @@ namespace AgOpenGPS
             Log.EventWriter("Program Started: "
                 + DateTime.Now.ToString("f", CultureInfo.InvariantCulture));
             Log.EventWriter("AOG Version: " + Application.ProductVersion.ToString(CultureInfo.InvariantCulture));
-            
+
             if (!Properties.Settings.Default.setDisplay_isTermsAccepted)
             {
                 using (var form = new Form_First(this))
@@ -403,7 +403,7 @@ namespace AgOpenGPS
 
             //start udp server is required
             StartLoopbackServer();
-        
+
             //boundaryToolStripBtn.Enabled = false;
             FieldMenuButtonEnableDisable(false);
 
@@ -506,7 +506,7 @@ namespace AgOpenGPS
 
                 YesMessageBox("Using Default Vehicle" + "\r\n\r\n" + "Load Existing Vehicle or Save As a New One !!!"
                     + "\r\n\r\n" + "Changes will NOT be Saved for Default Vehicle");
-            
+
                 using (FormConfig form = new FormConfig(this))
                 {
                     form.ShowDialog(this);
@@ -516,7 +516,7 @@ namespace AgOpenGPS
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btnAbrirConfig_Click(object sender, EventArgs e)
@@ -527,7 +527,14 @@ namespace AgOpenGPS
             // Muestra el formulario
             formConfigSembradora.Show();
         }
+        private void btnAbrirMonitor_Click(object sender, EventArgs e)
+        {
+            // Crea una instancia del formulario de configuración de sembradora
+            FormMonitorDeSiembra formMonitorDeSiembra = new FormMonitorDeSiembra();
 
+            // Muestra el formulario
+            formMonitorDeSiembra.Show();
+        }
         private void FormGPS_FormClosing(object sender, FormClosingEventArgs e)
         {
             Form f = Application.OpenForms["FormGPSData"];
@@ -1146,6 +1153,15 @@ namespace AgOpenGPS
 
         private readonly Random _random = new Random();
 
+        private void flp1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }//class FormGPS
 }//namespace AgOpenGPS
 
