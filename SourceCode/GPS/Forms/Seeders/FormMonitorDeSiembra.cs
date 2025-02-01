@@ -13,11 +13,51 @@ namespace AgOpenGPS.Forms.Seeders
         private MqttClientService mqttService;
         private FlowLayoutPanel tubeContainer;
 
-        public FormMonitorDeSiembra()
+        public FormMonitorDeSiembra(Form parentForm, int numberOfTubes)
         {
             InitializeComponent();
             InitializeMQTT();
-            GenerateTubes();
+            GenerateTubes(numberOfTubes);
+
+            // Configurar el formulario
+            this.StartPosition = FormStartPosition.Manual; // Para controlar manualmente la posición
+            this.FormBorderStyle = FormBorderStyle.FixedToolWindow; // Evitar que se redimensione
+            this.MinimizeBox = false;
+            this.MaximizeBox = false;
+
+            // Centrar el formulario horizontalmente respecto al formulario padre
+            // y posicionarlo a una altura manualmente definida
+            this.Load += (sender, e) => PositionFormRelativeToParent(parentForm, 500); // 100 es la altura manual
+
+            // Minimizar el formulario cuando el programa se minimice
+            this.Owner = parentForm; // Establecer el formulario principal como Owner
+            this.Owner.Resize += Owner_Resize;
+        }
+
+        private void PositionFormRelativeToParent(Form parentForm, int manualHeight)
+        {
+            // Centrar horizontalmente respecto al formulario padre
+            int parentCenterX = parentForm.Location.X + (parentForm.Width / 2);
+            int formX = parentCenterX - (this.Width / 2);
+
+            // Posicionar verticalmente en base a la altura manual
+            int formY = parentForm.Location.Y + manualHeight;
+
+            // Establecer la posición del formulario
+            this.Location = new Point(formX, formY);
+        }
+
+        private void Owner_Resize(object sender, EventArgs e)
+        {
+            // Verificar si Owner no es null antes de acceder a sus propiedades
+            if (this.Owner != null)
+            {
+                // Minimizar el formulario si el formulario principal se minimiza
+                if (this.Owner.WindowState == FormWindowState.Minimized)
+                {
+                    this.WindowState = FormWindowState.Minimized;
+                }
+            }
         }
 
         // Inicializar el cliente MQTT
@@ -82,64 +122,59 @@ namespace AgOpenGPS.Forms.Seeders
             toast.Show();
         }
         // Método para generar los tubos
-        private void GenerateTubes()
+        private const int TubeWidth = 10; // Ancho fijo de cada tubo
+        private const int TubeHeight = 50; // Alto fijo de cada tubo
+        private const int TubeMargin = 2; // Margen entre tubos
+        private const int FormHeight = 80; // Altura fija del formulario
+        private const int FormPadding = 1; // Margen del formulario
+        private void GenerateTubes(int numberOfTubes)
         {
+            // Calcular el ancho necesario para los tubos
+            int tubesWidth = (TubeWidth +  TubeMargin*2) * numberOfTubes- TubeMargin; // Restamos el último margen
+
+            // Calcular el ancho total del formulario, incluyendo márgenes
+            int formWidth = tubesWidth + 2 * FormPadding;
+
+
+            // Ajustar el tamaño del formulario
+            this.Width = formWidth ; // Ancho dinámico
+            this.Height = FormHeight + 2 * FormPadding; // Alto fijo + márgenes
+
+            // Crear el contenedor de tubos
             tubeContainer = new FlowLayoutPanel
             {
-                Dock = DockStyle.Fill,
-                AutoScroll = true,
+                Dock = DockStyle.Fill, // El contenedor ocupa todo el formulario
+                AutoScroll = true, // Habilitar scroll si no caben todos los tubos
                 FlowDirection = FlowDirection.LeftToRight,
-                WrapContents = true,
-                Padding = new Padding(10),
-                BackColor = Color.FromArgb(240, 240, 240) // Fondo claro
+                WrapContents = true, // Evitar que los tubos se "envuelvan"
+                Padding = new Padding(FormPadding), // Margen igual al del formulario
+                BackColor = Color.FromArgb(240, 240, 240)
             };
 
-            // Agregar 10 tubos con dosis iniciales
-            for (int i = 1; i <= 20; i++)
+            // Agregar los tubos
+            for (int i = 1; i <= numberOfTubes; i++)
             {
                 var tubePanel = CreateTubePanel(i);
                 tubeContainer.Controls.Add(tubePanel);
             }
 
-            // Añadir los tubos al formulario
+            // Añadir el contenedor al formulario
             this.Controls.Add(tubeContainer);
         }
 
         // Crear un "tubo" (un panel que representa la dosis)
         private Panel CreateTubePanel(int tubeNumber)
         {
+            // Crear el panel principal del tubo
             var tubePanel = new Panel
             {
-                Width = 40, // Más pequeño
-                Height = 100, // Más pequeño
-                Margin = new Padding(5),
-                BackColor = Color.White, // Fondo blanco
+                Width = TubeWidth, // Ancho fijo
+                Height = TubeHeight, // Alto fijo
+                Margin = new Padding(TubeMargin),
+                BackColor = Color.FromArgb(233, 236, 239), // #e9ecef
                 BorderStyle = BorderStyle.None,
                 Tag = new TubeState { Target = 3.5f, Actual = 3.5f } // Estado inicial
             };
-
-            // Crear la "liquid-fill" que representará la dosis
-            var liquidFill = new Panel
-            {
-                Width = tubePanel.Width - 10, // Margen interno
-                Height = tubePanel.Height,
-                BackColor = GetTubeColor(3.5f, 3.5f), // Color inicial (verde)
-                Dock = DockStyle.Bottom,
-                Padding = new Padding(5)
-            };
-
-            // Añadir bordes redondeados al líquido
-            liquidFill.Paint += (sender, e) =>
-            {
-                using (var path = GetRoundedRectangle(liquidFill.ClientRectangle, 10))
-                {
-                    e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-                    e.Graphics.FillPath(new SolidBrush(liquidFill.BackColor), path);
-                }
-            };
-
-            // Añadir el líquido al panel del tubo
-            tubePanel.Controls.Add(liquidFill);
 
             // Añadir bordes redondeados al tubo
             tubePanel.Paint += (sender, e) =>
@@ -148,9 +183,78 @@ namespace AgOpenGPS.Forms.Seeders
                 {
                     e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
                     e.Graphics.FillPath(new SolidBrush(tubePanel.BackColor), path);
-                    e.Graphics.DrawPath(new Pen(Color.Gray, 1), path);
+                    e.Graphics.DrawPath(new Pen(Color.FromArgb(222, 226, 230), 1), path); // #dee2e6
                 }
             };
+
+            // Crear el "cuello" del tubo
+            var tubeNeck = new Panel
+            {
+                Width = tubePanel.Width,
+                Height = 20,
+                BackColor = Color.FromArgb(222, 226, 230), // #dee2e6
+                Dock = DockStyle.Top
+            };
+
+            // Añadir bordes redondeados al cuello
+            tubeNeck.Paint += (sender, e) =>
+            {
+                using (var path = GetRoundedRectangle(tubeNeck.ClientRectangle, 15))
+                {
+                    e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+                    e.Graphics.FillPath(new SolidBrush(tubeNeck.BackColor), path);
+                }
+            };
+
+            // Crear el relleno líquido
+            var liquidFill = new Panel
+            {
+                Width = tubePanel.Width,
+                Height = tubePanel.Height - tubeNeck.Height,
+                BackColor = Color.Green, // Color inicial (verde)
+                Dock = DockStyle.Bottom
+            };
+
+            // Añadir un degradado al relleno líquido
+            liquidFill.Paint += (sender, e) =>
+            {
+                using (var brush = new System.Drawing.Drawing2D.LinearGradientBrush(
+                    new Point(0, liquidFill.Height),
+                    new Point(0, 0),
+                    Color.FromArgb(0, 0, 0, 10), // rgba(0, 0, 0, 0.1)
+                    Color.Transparent))
+                {
+                    e.Graphics.FillRectangle(brush, liquidFill.ClientRectangle);
+                }
+            };
+
+            // Añadir el texto de estado (rotado)
+            var statusInfo = new Label
+            {
+                
+                AutoSize = false,
+                Width = liquidFill.Height,
+                Height = liquidFill.Width,
+                TextAlign = ContentAlignment.MiddleCenter,
+                ForeColor = Color.White,
+                Font = new Font("Arial", 5, FontStyle.Bold),
+                BackColor = Color.Transparent,
+                Location = new Point(0, 0),
+                Text = "3.5/3.5 SxMetro"
+            };
+
+            // Rotar el texto -90 grados
+            statusInfo.Paint += (sender, e) =>
+            {
+                e.Graphics.TranslateTransform(statusInfo.Width / 2, statusInfo.Height / 2);
+                e.Graphics.RotateTransform(-90);
+                e.Graphics.DrawString(statusInfo.Text, statusInfo.Font, new SolidBrush(statusInfo.ForeColor), -statusInfo.Width / 2, -statusInfo.Height / 2);
+            };
+
+            // Añadir los controles al panel del tubo
+            tubePanel.Controls.Add(tubeNeck);
+            tubePanel.Controls.Add(liquidFill);
+            tubePanel.Controls.Add(statusInfo);
 
             return tubePanel;
         }
@@ -192,46 +296,37 @@ namespace AgOpenGPS.Forms.Seeders
         // Método UpdateTube modificado para usar el objeto JSON
         private void UpdateTube(TubeMessage tubeMessage)
         {
-            Log.EventWriter("Dentro tubo:" + tubeMessage.TubeNumber);
             if (tubeMessage == null) return;
-            Log.EventWriter("Dentro.");
 
             // Buscar el panel del tubo correspondiente
             var tubePanel = tubeContainer.Controls[tubeMessage.TubeNumber - 1] as Panel;
             if (tubePanel == null) return;
-            Log.EventWriter("Dentro tubo Panel:" + tubePanel);
 
             // Obtener el control liquidFill
-            var liquidFill = tubePanel.Controls[0] as Panel;
+            var liquidFill = tubePanel.Controls[1] as Panel;
             if (liquidFill == null) return;
+
+            // Obtener el control statusInfo
+            var statusInfo = tubePanel.Controls[2] as Label;
+            if (statusInfo == null) return;
+
+            // Actualizar el texto del label
+            statusInfo.Text = $"{tubeMessage.Actual:F1}/{tubeMessage.Target:F1} SxMetro";
 
             // Determinar el color basado en el estado
             Color newColor = tubeMessage.Status switch
             {
-                "falla" => Color.Red,
-                "dosis no alcanzada" => Color.Yellow,
-                "dosis superada" => Color.Blue,
-                _ => GetTubeColor(tubeMessage.Actual, tubeMessage.Target)
+                "falla" => Color.FromArgb(220, 53, 69), // Rojo (#dc3545)
+                "tapado" => Color.FromArgb(52, 58, 64), // Negro (#343a40)
+                "dosis no alcanzada" => Color.FromArgb(255, 193, 7), // Amarillo (#ffc107)
+                "dosis superada" => Color.FromArgb(0, 123, 255), // Azul (#007bff)
+                _ => Color.FromArgb(40, 167, 69) // Verde (#28a745)
             };
 
-            // Solo actualizar si el color ha cambiado
-            if (liquidFill.BackColor != newColor)
-            {
-                liquidFill.BackColor = newColor;
-                liquidFill.Invalidate(); // Forzar redibujado del liquidFill
-
-                // Mostrar alerta si el estado es crítico
-                if (tubeMessage.Status == "falla" || tubeMessage.Status == "dosis no alcanzada" || tubeMessage.Status == "dosis superada")
-                {
-                    string message = $"Tubo {tubeMessage.TubeNumber}: {tubeMessage.Status}\n" +
-                                     $"Actual: {tubeMessage.Actual:F1}, Target: {tubeMessage.Target:F1}";
-                    ShowAlert(tubeMessage.Status, message);
-                }
-            }
-
-            Log.EventWriter("Actualización completada para el tubo " + tubeMessage.TubeNumber);
+            // Actualizar el color del líquido
+            liquidFill.BackColor = newColor;
+            liquidFill.Invalidate(); // Forzar redibujado
         }
-
         // Clase para almacenar el estado del tubo
         private class TubeState
         {

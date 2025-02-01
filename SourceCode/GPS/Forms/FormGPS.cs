@@ -527,13 +527,27 @@ namespace AgOpenGPS
             // Muestra el formulario
             formConfigSembradora.Show();
         }
+        private FormMonitorDeSiembra _formMonitorDeSiembra; // Declara una variable para almacenar la referencia al formulario secundario
+
         private void btnAbrirMonitor_Click(object sender, EventArgs e)
         {
-            // Crea una instancia del formulario de configuración de sembradora
-            FormMonitorDeSiembra formMonitorDeSiembra = new FormMonitorDeSiembra();
+            // Verifica si el formulario secundario ya está abierto
+            if (_formMonitorDeSiembra == null || _formMonitorDeSiembra.IsDisposed)
+            {
+                // Crea una instancia del formulario de configuración de sembradora
+                _formMonitorDeSiembra = new FormMonitorDeSiembra(this, 64);
 
-            // Muestra el formulario
-            formMonitorDeSiembra.Show();
+                // Muestra el formulario
+                _formMonitorDeSiembra.Show();
+
+                // Maneja el evento FormClosed del formulario principal para cerrar el formulario secundario
+                this.FormClosed += (s, args) => _formMonitorDeSiembra.Close();
+            }
+            else
+            {
+                // Si el formulario ya está abierto, tráelo al frente
+                _formMonitorDeSiembra.BringToFront();
+            }
         }
         private void FormGPS_FormClosing(object sender, FormClosingEventArgs e)
         {

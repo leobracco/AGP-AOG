@@ -34,12 +34,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            AutoSize = true;
-            ClientSize = new Size(1184, 165);
-            ControlBox = false;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(706, 63);
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             Name = "FormMonitorDeSiembra";
-            Opacity = 0.5D;
             ShowIcon = false;
             ShowInTaskbar = false;
             SizeGripStyle = SizeGripStyle.Hide;
