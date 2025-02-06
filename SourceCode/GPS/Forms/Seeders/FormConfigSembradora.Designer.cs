@@ -32,9 +32,9 @@
             // 
             // FormConfigSembradora
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(503, 240);
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(597, 262);
             Name = "FormConfigSembradora";
             ShowIcon = false;
             ShowInTaskbar = false;

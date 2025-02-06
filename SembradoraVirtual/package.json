@@ -1,0 +1,14 @@
+{
+  "name": "sembradoravirtual",
+  "version": "1.0.0",
+  "description": "Genera datos de sensroes automaticamente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Bracco",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^5.10.3"
+  }
+}

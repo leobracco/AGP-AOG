@@ -14,6 +14,7 @@
     <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Resources\MonitorDeSiembra.html" />
     <None Remove="Resources\Web\MonitorDeSiembra.html" />
   </ItemGroup>
 
@@ -66,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Control.Draggable" Version="1.0.5049.269" />
-    <PackageReference Include="MQTTnet" Version="4.3.7.1207" />
+    <PackageReference Include="MQTTnet" Version="5.0.1.1416" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="OpenTK.GLControl" Version="3.3.3" />
     <PackageReference Include="Resource.Embedder" Version="2.2.0" />

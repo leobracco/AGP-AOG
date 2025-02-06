@@ -28,22 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMonitorDeSiembra));
             SuspendLayout();
             // 
             // FormMonitorDeSiembra
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(706, 63);
             FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FormMonitorDeSiembra";
             ShowIcon = false;
             ShowInTaskbar = false;
             SizeGripStyle = SizeGripStyle.Hide;
-            Text = "FormMonitorDeSiembra";
             TopMost = true;
             ResumeLayout(false);
         }

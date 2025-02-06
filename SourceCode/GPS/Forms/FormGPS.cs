@@ -25,6 +25,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Threading.Tasks;
 using AgOpenGPS.Forms.Seeders;
+using AgOpenGPS.Forms;
 
 
 namespace AgOpenGPS
@@ -32,7 +33,7 @@ namespace AgOpenGPS
     //the main form object
     public partial class FormGPS : Form
     {
-        public MqttClientService mqttService;
+        //public MqttClientService mqttService;
 
         //To bring forward AgIO if running
         [System.Runtime.InteropServices.DllImport("User32.dll")]
@@ -269,7 +270,7 @@ namespace AgOpenGPS
                 }
             }
         }
-        private async Task InitializeMqttAsync()
+       /* private async Task InitializeMqttAsync()
         {
             try
             {
@@ -282,16 +283,16 @@ namespace AgOpenGPS
             {
                 Log.EventWriter($"Error MQTT: {ex.Message}");
             }
-        }
+        }*/
 
         public FormGPS()
         {
             //winform initialization
             InitializeComponent();
-            mqttService = new MqttClientService();
+            //mqttService = new MqttClientService();
             //time keeper
             secondsSinceStart = (DateTime.Now - Process.GetCurrentProcess().StartTime).TotalSeconds;
-            _ = InitializeMqttAsync();
+            //_ = InitializeMqttAsync();
 
             camera = new CCamera();
 
@@ -526,31 +527,48 @@ namespace AgOpenGPS
 
             // Muestra el formulario
             formConfigSembradora.Show();
-        }
-        private FormMonitorDeSiembra _formMonitorDeSiembra; // Declara una variable para almacenar la referencia al formulario secundario
 
+        }
+        private FormMonitorDeSiembra _formMonitorDeSiembra;
         private void btnAbrirMonitor_Click(object sender, EventArgs e)
         {
-            // Verifica si el formulario secundario ya está abierto
-            if (_formMonitorDeSiembra == null || _formMonitorDeSiembra.IsDisposed)
+            try
             {
-                // Crea una instancia del formulario de configuración de sembradora
-                _formMonitorDeSiembra = new FormMonitorDeSiembra(this, 64);
+                if (_formMonitorDeSiembra == null || _formMonitorDeSiembra.IsDisposed)
+                {
+                    _formMonitorDeSiembra = new FormMonitorDeSiembra(this)
+                    {
+                        Owner = this, // Establecer formulario padre
+                        StartPosition = FormStartPosition.CenterParent
+                    };
 
-                // Muestra el formulario
-                _formMonitorDeSiembra.Show();
+                    // Configurar eventos de cierre
+                    _formMonitorDeSiembra.FormClosed += (s, args) =>
+                    {
+                        _formMonitorDeSiembra.Dispose();
+                        _formMonitorDeSiembra = null;
+                    };
 
-                // Maneja el evento FormClosed del formulario principal para cerrar el formulario secundario
-                this.FormClosed += (s, args) => _formMonitorDeSiembra.Close();
+                    // Forzar creación de handle
+                    var handle = _formMonitorDeSiembra.Handle;
+
+                    _formMonitorDeSiembra.Show();
+                    _formMonitorDeSiembra.PosicionarDesdeAbajo(100);
+                }
+                else
+                {
+                    _formMonitorDeSiembra.WindowState = FormWindowState.Normal;
+                    _formMonitorDeSiembra.BringToFront();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                // Si el formulario ya está abierto, tráelo al frente
-                _formMonitorDeSiembra.BringToFront();
+                MessageBox.Show($"Error al abrir monitor: {ex.Message}");
             }
         }
         private void FormGPS_FormClosing(object sender, FormClosingEventArgs e)
         {
+
             Form f = Application.OpenForms["FormGPSData"];
 
             if (f != null)
@@ -566,7 +584,12 @@ namespace AgOpenGPS
                 f.Focus();
                 f.Close();
             }
-
+            f= Application.OpenForms["FormMonitorDeSiembra"];
+            if (f != null)
+            {
+                f.Focus();
+                f.Close();
+            }
             f = Application.OpenForms["FormPan"];
 
             if (f != null)
@@ -1171,7 +1194,7 @@ namespace AgOpenGPS
         {
 
         }
-
+        
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 

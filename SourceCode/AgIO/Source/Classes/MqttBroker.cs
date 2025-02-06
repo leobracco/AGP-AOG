@@ -1,53 +1,102 @@
 ﻿using MQTTnet;
+using MQTTnet.AspNetCore;
 using MQTTnet.Server;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using AgLibrary.Logging;
 using System;
 using System.Threading.Tasks;
-using AgLibrary.Logging;
+using System.Linq;
 
 namespace AgIO
 {
     public class MqttBroker
     {
-        private MqttServer _mqttServer; // Usa la clase MqttServer
+        private IHost _host;
+        private MqttServer _mqttServer;
 
-        public async Task StartBrokerAsync(string brokerAddress = "localhost", int port = 1883)
+        public async Task StartBrokerAsync(string brokerAddress = "localhost", int tcpPort = 1883, int wsPort = 3001)
         {
-            var factory = new MqttFactory();
+            _host = Host.CreateDefaultBuilder()
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseKestrel(kestrelOptions =>
+                    {
+                        // Configuración para MQTT sobre TCP
+                        kestrelOptions.ListenAnyIP(tcpPort, listenOptions => listenOptions.UseMqtt());
 
-            // Configura las opciones del servidor
-            var options = new MqttServerOptionsBuilder()
-                .WithDefaultEndpoint()
-                .WithDefaultEndpointPort(port)
+                        // Configuración para WebSocket
+                        kestrelOptions.ListenAnyIP(wsPort);
+                    });
+
+                    webBuilder.UseStartup<Startup>();
+                })
+                .ConfigureServices(services =>
+                {
+                    services.AddHostedMqttServer(options =>
+                    {
+                        options.WithDefaultEndpoint();
+                    });
+
+                    services.AddMqttConnectionHandler();
+                    services.AddConnections();
+                    services.AddSingleton<MqttBrokerService>();
+                })
                 .Build();
 
-            // Crea el servidor con las opciones
-            _mqttServer = (MqttServer)factory.CreateMqttServer(options);
+            await _host.StartAsync();
+            _mqttServer = _host.Services.GetRequiredService<MqttServer>();
 
-           
-            try
-            {
-                await _mqttServer.StartAsync();
-                Log.EventWriter($"Broker MQTT iniciado en {brokerAddress}:{port}");
-            }
-            catch (Exception ex)
-            {
-                Log.EventWriter($"Error al iniciar el broker: {ex.Message}");
-            }
+            // Configurar eventos
+            _mqttServer.ValidatingConnectionAsync += ValidateConnection;
+            _mqttServer.ClientConnectedAsync += ClientConnected;
+
+            Log.EventWriter($"Broker MQTT iniciado:\nTCP: {brokerAddress}:{tcpPort}\nWS: ws://{brokerAddress}:{wsPort}/mqtt");
+        }
+
+        private Task ValidateConnection(ValidatingConnectionEventArgs args)
+        {
+            args.ReasonCode = MQTTnet.Protocol.MqttConnectReasonCode.Success;
+            Log.EventWriter($"Nueva conexión: {args.ClientId}");
+            return Task.CompletedTask;
+        }
+
+        private Task ClientConnected(ClientConnectedEventArgs args)
+        {
+            Log.EventWriter($"Cliente conectado: {args.ClientId}");
+            return Task.CompletedTask;
         }
 
         public async Task StopBrokerAsync()
         {
-            if (_mqttServer == null) return;
+            if (_host == null) return;
 
-            try
-            {
-                await _mqttServer.StopAsync();
-                Log.EventWriter("Broker MQTT detenido.");
-            }
-            catch (Exception ex)
-            {
-                Log.EventWriter($"Error al detener el broker: {ex.Message}");
-            }
+            await _host.StopAsync();
+            _host.Dispose();
+
+            Log.EventWriter("Broker MQTT detenido");
         }
+    }
+
+    public class Startup
+    {
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapConnectionHandler<MqttConnectionHandler>(
+                    "/mqtt",
+                    options => options.WebSockets.SubProtocolSelector =
+                        protocolList => protocolList.FirstOrDefault() ?? string.Empty);
+            });
+        }
+    }
+
+    public class MqttBrokerService
+    {
+        // Lógica adicional del broker aquí
     }
 }
